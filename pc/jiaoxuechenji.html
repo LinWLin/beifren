@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教学成绩</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../css/new_jxcj.css">
+    <link rel="stylesheet" href="../css/video-js.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <style type="text/css">
+        #timeline {
+            height: 1060px;
+            overflow: hidden;
+            position: relative;
+            background: url('../img/dot.gif') left 45px repeat-x;
+        }
+
+        #dates {
+            height: 60px;
+            overflow: hidden;
+        }
+
+        #dates li {
+            list-style: none;
+            float: left;
+            width: 360px;
+            height: 50px;
+            line-height: 40px;
+            font-size: 16px;
+            text-align: center;
+            background: url('../img/biggerdot.png') center bottom no-repeat;
+        }
+
+        #dates .selected {
+            display: inline-block;
+            background-color: #1CA3FC;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 20px;
+            line-height: 34px;
+            padding: 3px 8px;
+            margin-bottom: 8px;
+        }
+
+        #issues {
+            height: 1060px;
+            overflow: hidden;
+        }
+
+        #issues li {
+            width: 1120px;
+            height: 1060px;
+            list-style: none;
+            float: left;
+        }
+
+        #issues li h1 {
+            color: #ffcc00;
+            font-size: 42px;
+            margin: 20px 0;
+            text-shadow: #000 1px 1px 2px;
+        }
+
+        #issues li p {
+            font-size: 14px;
+            margin-right: 70px;
+            margin: 10px;
+            font-weight: normal;
+            line-height: 22px;
+        }
+    </style>
+</head>
+<body style="overflow-x: hidden;">
+<div>
+    <div class="zindex">
+        <div class="topLine" style="position: fixed;top: 0px;"></div>
+        <div class="nav-box">
+            <div class="nav clearfix">
+                <div class="navLeft">
+                    <a href="">关于我们</a>
+                    <a href="">教学成绩</a>
+                    <a href="">名师团队</a>
+                    <a href="">六大优势</a>
+                </div>
+                <div class="navCenter">
+                    <a href=""><img src="../images/head.png" alt=""/></a>
+                </div>
+                <div class="navRight">
+                    <a href="">作品专区</a>
+                    <a href="">选课中心</a>
+                    <a href="">美考专区</a>
+                    <a href="">联系我们</a>
+                </div>
+            </div>
+        </div>
+        <div id="banner-box">
+            <div class="banner-box"
+                 style="background: url('http://ozcggqkjx.bkt.clouddn.com/%E5%8C%97%E6%9C%8D%E4%BA%BA%E6%95%99%E5%AD%A6%E6%88%90%E7%BB%A9%E5%9B%BE') no-repeat;position: relative;background-size: 100% 100%">
+                 <div class="banner_ctn">
+                     <h2 class="text_justify">2 0 1 7 年</h2>
+                     <h2 class="text_justify">再 创 辉 煌 成 绩</h2>
+                     <h4 class="text_justify">2 0 1 7 年 <span>2 4 人</span> 参 加 考 试 通 过 <span>1 8 人</span></h4>
+                     <h4 class="text_justify">平 均 每 <span>5</span> 人 考 北 京 服 装 学 院 有 就 有 <span>4 人</span> 通 过</h4>
+                     <div class="banner_btnWarpper">
+                         <a href="##" class="active">免费试学</a>
+                         <a href="##">立刻报名</a>
+                     </div>
+                     <div class="tel_box">
+                         <span class="tel_img_icon"></span>
+                         报名热线 4008-010-611
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--内容-->
+    <div id="slideBox">
+        <div class="topLine bottomLine">
+            <img src="../images/downLogo.png" alt=""/>
+        </div>
+        <div class="numberOneContainer">
+            <div class="titleImg wow zoomIn">
+                <img src="../images/titleImg.png" alt="" width='615'>
+            </div>
+            <h2 class="wow fadeInUp">状元榜</h2>
+            <h4 class="wow fadeInUp">2017年北京服装学院升学率 <span>90%</span></h4>
+            <ul class="numberOneWarpper clearfix">
+                <li class="numberOneList wow bounceInUp" data-wow-delay=".1s">
+                    <div class="numberOneItem">
+                        <h3>北京林业大学 <br>第一名</h4>
+                        <img src="../images/c_j_03.png" alt="">
+                        <div class="numberOneDetail">
+                            <div class="numberOneName">苏方莹</div>
+                            <div class="numberOneDisc">
+                                <p><span>应届生</span> <span>学习8个月</span></p>
+                                <p><span>福建</span> <span class="colorFFC800">状元通道</span></p>
+                                <p><span>状元作品</span> <span>查看合格证</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="numberOneList wow bounceInUp" data-wow-delay=".5s">
+                    <div class="numberOneItem">
+                        <h3>北京林业大学 <br>第一名</h3>
+                        <img src="../images/c_j_05.png" alt="">
+                        <div class="numberOneDetail">
+                            <div class="numberOneName">苏方莹</div>
+                            <div class="numberOneDisc">
+                                <p><span>应届生</span> <span>学习8个月</span></p>
+                                <p><span>福建</span> <span class="colorFFC800">状元通道</span></p>
+                                <p><span>状元作品</span> <span>查看合格证</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="numberOneList wow bounceInUp" data-wow-delay="1s">
+                    <div class="numberOneItem">
+                        <h3>北京林业大学 <br>第一名</h3>
+                        <img src="../images/c_j_07.png" alt="">
+                        <div class="numberOneDetail">
+                            <div class="numberOneName">苏方莹</div>
+                            <div class="numberOneDisc">
+                                <p><span>应届生</span> <span>学习8个月</span></p>
+                                <p><span>福建</span> <span class="colorFFC800">状元通道</span></p>
+                                <p><span>状元作品</span> <span>查看合格证</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="manuWarpper">
+            <h2 class="wow fadeInUp">北服状元</h2>
+            <p class="wow fadeInUp">如何诞生的？</p>
+            <div class="manu_title s clearfix">
+                <h3 class="m_left wow bounceInLeft">顶配师资</h3>
+                <h3 class="m_right wow bounceInRight">一对一VIP教学</h3>
+            </div>
+            <div class="manuConten">
+                <img src="../images/c_j_02.png" alt="">
+                <div class="manuCtn">
+                    <h4 class="wow fadeInUp" data-wow-delay=".2s">艺考一线实战老师，少有的老司机！</h4>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">资深艺考教师，平均教龄10年以上</p>
+                    <p class="wow fadeInUp" data-wow-delay=".6s">均毕业于央美、清华、北服</p>
+                    <a class="manuBtn wow fadeInUp" data-wow-delay=".8s" href="##">我要0元试课</a>
+                </div>
+                <ul class="manu_Container">
+                    <li class='manu_list bounceInLeft active'>
+                        <div class="numImgbox">
+                            <img src="../images/j_x_b_b.png" width="100%" alt="">
+                        </div>
+                    </li>
+                    <li class='manu_list bounceInRight'>
+                        <div class="numImgbox">
+                            <img src="../images/j_x_b_b.png" width="100%" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <style type="text/css">
+            .cytext {
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .cytext div {
+                margin-bottom: 5px;
+                color: #666;
+            }
+
+            .cyli {
+                float: left;
+                margin: 10px 15px;
+            }
+        </style>
+        <!--时间1-->
+        <div class="wrapper1120" style="margin-top:55px;margin-bottom:15px;" id="cb">
+            <div class="shengxue">
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">升学率才是王道</h2>
+                <p class="wow fadeInUp" data-wow-delay=".6s">有图有真相 成绩真实可查</p>
+                <p class="wow fadeInUp" data-wow-delay=".9s">平均 <span>5</span> 人考北京服装学院有 <span>4</span> 人通过</p>
+            </div>
+            <div id="timeline" class="bounceInUp wow">
+                <ul id="dates">
+                    <li><a href="#2006">2015年成绩</a></li>
+                    <li><a href="#2007">2016年成绩</a></li>
+                    <li><a href="#2008" class="selected">2017年成绩</a></li>
+                </ul>
+                <ul id="issues">
+                    <li id="2016">
+                        <!--<h1>2016 年成绩</h1>-->
+
+                        <!--<p>2016年，取得好成绩</p>-->
+                        <div class="f-clear titleDisc2016">
+                           <div class="title_l">
+                               <span class="schoName">北京服装学院<br>过 线 人 数</span><span class="schoNum">38人</span>
+                           </div>     
+                           <div class="title_m">
+                               <span class="schoName">北京服装学院<br>参 考 人 数</span><span class="schoNum">30人</span>
+                           </div>
+                           <div class="title_r">
+                               <span class="schoName">北京服装学院<br>录 取 率</span><span class="schoNum">79%</span>
+                           </div>
+                        </div>
+                        <div style="margin-top:10px;margin-bottom:10px;height:250px;">
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li id="2017">
+                        <div class="f-clear titleDisc2016">
+                            <div class="title_l">
+                               <span class="schoName">北京服装学院<br>过 线 人 数</span><span class="schoNum">20人</span>
+                           </div>     
+                           <div class="title_m">
+                               <span class="schoName">北京服装学院<br>参 考 人 数</span><span class="schoNum">17人</span>
+                           </div>
+                           <div class="title_r">
+                               <span class="schoName">北京服装学院<br>录 取 率</span><span class="schoNum">85%</span>
+                           </div>
+                        </div>
+                        <!--end 2017ad-->
+                        <div style="margin-top:10px;margin-bottom:10px;height:250px;">
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end 2017ad-->
+
+                    </li>
+                    <li id="2018">
+                        <!--<h1>2018 厚积薄发</h1>-->
+
+                        <!--<p>2018年，十八变。</p>-->
+                        <div class="f-clear titleDisc2016">
+                            <div class="title_l">
+                               <span class="schoName">北京服装学院<br>过 线 人 数</span><span class="schoNum">18人</span>
+                           </div>     
+                           <div class="title_m">
+                               <span class="schoName">北京服装学院<br>参 考 人 数</span><span class="schoNum">24人</span>
+                           </div>
+                           <div class="title_r">
+                               <span class="schoName">北京服装学院<br>录 取 率</span><span class="schoNum">75%</span>
+                           </div>
+                        </div>
+
+                        <div style="margin-top:10px;margin-bottom:10px;height:250px;">
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                            <div class="cyli">
+                                <div class="cyli_item">
+                                    <a href="xueyuanZhuanqu.html"><img src="../images/x1.png"/></a>
+                                    <p class="cyli_disc">北京服装学院第1名</p>
+                                </div>
+                                <div class="cytext">
+                                    <div>张诗悦</div>
+                                    <div>浙江</div>
+                                    <div>北京服务学院设计学类</div>
+                                    <div>北服人画室2015级学员</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div style="margin-bottom:20px;"><a class='moreCj'>查看更多成绩</a>
+        </div>
+
+        <div class="schoolExper">
+            <h2 class="bounceIn wow">零基础也能上名校？</h2>
+            <div class="experItem">
+                <div class="experItem_l wow bounceInLeft">
+                    <div class="experCtn">
+                        <img src="../images/exper1.png" width="60%" alt="">
+                        <div class="experDisc">
+                            <h4>孙彤</h4>
+                            <p>零基础 学习8个月</p>
+                            <p>北京服装学院 <span>录取</span></p>
+                        </div>
+                    </div>
+                </div><div class="experItem_r bounceInRight wow">
+                    <div class="ab-video-con">
+                        <div class="ab-video-fix">
+                            <video id="video-about" width="467" height="267" controls="controls" data-setup="{&quot;example_option&quot;:true}" poster="../images/c_j_15.png" class="video-js vjs-default-skin vjs-big-play-centered">
+                                您的浏览器不支持 HTML5 video 标签。
+                                <source src="http://cloud.video.taobao.com//play/u/2690447569/p/2/e/6/t/1/50014228198.mp4" type="video/mp4">
+                            </video>
+                            <div class="hide-icon"><i></i><i></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experItem">
+                <div class="experItem_l wow bounceInLeft">
+                    <div class="experCtn">
+                        <img src="../images/exper2.png" width="70%" alt="">
+                        <div class="experDisc">
+                            <h4>钱瑾汐</h4>
+                            <p>零基础 学习8个月</p>
+                            <p>中央戏剧学院 <span>录取</span></p>
+                        </div>
+                    </div>
+                </div><div class="experItem_r wow bounceInRight">
+                    <div class="ab-video-con">
+                        <div class="ab-video-fix">
+                            <video id="video-about" width="467" height="267" controls="controls" data-setup="{&quot;example_option&quot;:true}" poster="../images/c_j_15.png" class="video-js vjs-default-skin vjs-big-play-centered">
+                                您的浏览器不支持 HTML5 video 标签。
+                                <source src="http://cloud.video.taobao.com//play/u/2690447569/p/2/e/6/t/1/50014228198.mp4" type="video/mp4">
+                            </video>
+                            <div class="hide-icon"><i></i><i></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom:20px;margin-top:40px;">
+                <a class='moreCj wow fadeInUp'>更多真实成功案例</a>
+            </div>
+        </div>
+        <div class="manuWarpper">
+            <h2 class="wow fadeInUp">北服人助你逆袭</h2>
+            <p class="wow fadeInUp">要逆袭 趁现在   4008-010-611</p>
+            <div class="manu_title x clearfix">
+                <h3 class="m_left wow bounceInLeft">加倍关注</h3>
+                <h3 class="m_right wow bounceInRight">深层次策略教学</h3>
+            </div>
+            <div class="manuConten">
+                <img src="../images/c_j.png" alt="">
+                <div class="manuCtn xia">
+                    <h4 class="wow fadeInUp" data-wow-delay=".3s">订制专属零基础学院升学方案，考学有保障！ </h4>
+                    <p class="wow fadeInUp" data-wow-delay=".6s">零基础应届生，素描轻松拿下89分 </p>
+                    <p class="wow fadeInUp" data-wow-delay=".9s">独门秘籍，创意速写连年单科第一！</p>
+                </div>
+                <div class="nixi_container">
+                    <div class="nixi_list bounceInLeft active">
+                        <ul class="nixiWarpper">
+                            <li class="nixiList">
+                                <img src="../images/c_j_24.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">一 对 一</h3>
+                                    <p class="text_justify">手把手 面对面</p>
+                                </div>
+                            </li><li class="nixiList">
+                                <img src="../images/c_j_19.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">个 性 化</h3>
+                                    <p class="text_justify">因材施教 量身定制</p>
+                                </div>
+                            </li><li class="nixiList">
+                                <img src="../images/c_j_21.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">关 键 词</h3>
+                                    <p class="text_justify">提炼重点 请好记忆</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nixi_list bounceInRight">
+                        <ul class="nixiWarpper">
+                            <li class="nixiList">
+                                <img src="../images/c_j_24.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">一 对 一</h3>
+                                    <p class="text_justify">手把手 面对面</p>
+                                </div>
+                            </li><li class="nixiList">
+                                <img src="../images/c_j_19.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">个 性 化</h3>
+                                    <p class="text_justify">因材施教 量身定制</p>
+                                </div>
+                            </li><li class="nixiList">
+                                <img src="../images/c_j_21.png" alt="">
+                                <div class="nixiCtx">
+                                    <h3 class="text_justify">关 键 词</h3>
+                                    <p class="text_justify">提炼重点 请好记忆</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="freeWarpper">
+            <div class="freeTopCon">
+                <div class="freeImg wow zoomIn">
+                    <img src="../images/free.png" width="240" alt="">
+                </div>
+                <div class="freeFrom">
+                    <h3 class="wow bounceInRight">你若不为你自己改变 世界更不会因你而变</h3>
+                    <form class="fadeInRight wow" action="" class="clearfix">
+                        <input type="text" placeholder="姓名">
+                        <input type="text" placeholder="电话">
+                        <input type="submit" value="立即报名">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="exaWarpper">
+            <h2 class="wow fadeInUp" data-wow-delay=".3s">联考高分无忧</h2>
+            <p class="wow fadeInUp" data-wow-delay=".6s">北服人连续多年联考大满贯！</p>
+            <p class="wow fadeInUp" data-wow-delay=".9s">联考100%通过，签订协议，法律保障！</p>
+            <div class="mapWarpper wow zoomIn">
+                <!-- <iframe src="./chinaMap.html" frameborder="0" scrolling="no" width="100%" height="800px"></iframe> -->
+                <div class="map_warpper"><img src="../images/map_03.png" width="90%" alt=""></div>
+                <div class="mapContainer wow bounceInLeft" data-wow-delay='.9s'>
+                    <div class="mask"></div>
+                    <div class="mapCtn">
+                        <h2>决战 <span>联考</span></h2>
+                        <p style="height:80px"><span class="text_justify">北 服 人 画 室 学 员</span><span class="text_justify">来 自 全 国 28 个 省 级 区 域</span></p>
+                        <h4>6-9月 打基础</h4>
+                        <p class="text_justify">开 设 课 程 不 冲 突，基 础 更 夯 实</p>
+                        <h4>9-11月 保联考</h4>
+                        <p class="text_justify">分 省 授 课 更 针 对，分 数 更 比 同 学 高</p>
+                        <h4>11-3月 冲名校</h4>
+                        <p class="text_justify">基 础 课 和 设 计 并 驾 齐 驱，两 不 耽 误</p>
+                    </div>
+                </div>
+                <ul class="provincial">
+                    <li class="prov_list fujian">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student active">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>福建-苏方莹</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list hainan">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>海南-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list hunan">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>湖南-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list shangxi">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>陕西-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list henan">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>湖南-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list shangdong">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>山东-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list hebei">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>河北-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list shanxi">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>山西-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list tianjin">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>天津-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list beijing">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>北京-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list liaoning">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>辽宁-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                    <li class="prov_list neimeng">
+                        <span class="prov_icon"></span>
+                        <div class="ball-scale-multiple">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="prov_student">
+                            <img src="../images/j_x_b_1_03.png" alt="">
+                            <div class="student_detail">          
+                               <div class="student_disc">                             
+                                   <p>内蒙-某某某</p>                       
+                                   <h4>联考254高分</h4>
+                               </div>
+                           </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div style="margin-bottom:20px;">
+                <a class='moreCj wow fadeInUp'>突击联考</a>
+            </div>
+        </div>
+
+        <!-- 历史成绩 -->
+        <div class="historyPerfor">
+            <div class="historyPerforTitle">
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">历届成绩</h2>
+                <p class="wow fadeInUp" data-wow-delay=".6s">疯狂教学  叫嚣考试</p>
+            </div>
+            <div class="historyPerforContainer">
+                <ul class="history_left">
+                    <li class="perfor2016 wow bounceInUp" data-wow-delay=".5s">
+                        <a href="##">点击查看2016年战绩</a>
+                        <p>斩获北京服装学院 <span>第一名</span></p>
+                        <p><span>20</span> 人参加考试。通过 <span>17</span> 人，北京服装学院通过率高达 <span>90%</span></p>
+                    </li>
+                    <li class="perfor2014 wow bounceInUp" data-wow-delay="1.5s">
+                        <a href="">点击查看2014年战绩</a>
+                        <p><span>38</span> 人参加考试，通过 <span>30</span> 人，北京服装学院通过率高达 <span>80%</span></p>
+                    </li>
+                </ul><div class="line_warpper"></div><ul class="history_right">
+                    <li class="perfor2015 wow bounceInUp" data-wow-delay='1s'>
+                        <a href="">点击查看2015年战绩</a>
+                        <p><span>28</span> 人参加考试，通过 <span>25</span>人北京服装学院通过率高达 <span>90%</span></p>
+                    </li>
+                    <li class="perfor_more wow bounceInUp" data-wow-delay='2s'>
+                        <a href="">点击查看更多历史成绩&gt;&gt;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 北服直通车 -->
+
+        <div class="stra_car">
+            <img src="../images/c_j_29.png" width="100%" alt="">
+            <div class="stra_car_warpper">
+                <h3 class="wow fadeInUp" data-wow-delay=".3s">北服直通车</h3>
+                <p class="title_dis wow bounceInRight">一年机会不要错过</p>
+                <div class="car_btn clearfix wow fadeInUp">
+                    <a href="##">免费试学</a>
+                    <a class="car_btn_right" href="##">直通车报名</a>
+                </div>
+                <ul class="stara_tag clearfix">
+                    <li class="wow zoomInUp" data-wow-delay=".3s">
+                        <span class="car_icon_1"></span><div class="car_desc">
+                            <h4 class="text_justify">免 费 试 学</h4>
+                            <p>先听课 后付费</p>
+                        </div>
+                    </li>
+                    <li class="wow zoomInUp" data-wow-delay=".6s">
+                        <span class="car_icon_2"></span><div class="car_desc">
+                            <h4 class="text_justify">选 导 师</h4>
+                            <p>不满意 换老师</p>
+                        </div>
+                    </li>
+                    <li class="wow zoomInUp" data-wow-delay=".9s">
+                        <span class="car_icon_3"></span><div class="car_desc">
+                            <h4 class="text_justify">保 过 协 议</h4>
+                            <p>没效果 退余额</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="prdWarpper">
+            <div class="top_line clearfix">
+                <div class="top_line_left clearfix">
+                    <ul class="top_line_t clearfix">
+                        <li class="wow fadeInUp" data-wow-delay=".3s">
+                            <img src="../images/c_j_32.png" alt="">
+                            <div class="prd_card">
+                                <h4>胡俊宇</h4>
+                                <p>北京服装学院17年 <span>第1名</span></p>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".6s">
+                            <img src="../images/c_j_34.png" alt="">
+                            <div class="prd_card">
+                                <h4>朱瑜</h4>
+                                <p>北京服装学院14年 <span>第9名</span></p>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay=".9s">
+                            <img src="../images/c_j_36.png" alt="">
+                            <div class="prd_card">
+                                <h4>韩雪</h4>
+                                <p><span>零基础</span> 12年考入北京服装学院</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="top_line_b clearfix">
+                        <li class="row2 wow fadeInUp" data-wow-delay=".5s">
+                            <img src="../images/c_j_42.png" alt="">
+                            <div class="prd_card">
+                                <h4>粱雁博</h4>
+                                <p><span>零基础</span> 15年考入北京服装学院  <span>服装系20名</span></p>
+                            </div>
+                        </li>
+                        <li class="wow fadeInUp" data-wow-delay="1s">
+                            <img src="../images/c_j_44.png" alt="">
+                            <div class="prd_card">
+                                <h4>佟欣阳</h4>
+                                <p><span>零基础</span> 14年考入北京服装学院</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top_line_right wow fadeInUp" data-wow-delay="1.2s">
+                    <h3>明星学员</h3>
+                    <p>连续多年斩获北京服装学院第1名!</p>
+                    <p>他们在北服人实现了他们的梦想!</p>
+                </div>
+            </div>
+            <div class="bottom_line">
+                <ul class="top_line_b clearfix">
+                    <li class="wow fadeInUp" data-wow-delay=".3s">
+                        <img src="../images/c_j_49.png" alt="">
+                        <div class="prd_card">
+                            <h4>崔金玉</h4>
+                            <p>北京服装学院10年  <span>第9名</span></p>
+                        </div>
+                    </li>
+                    <li class="row2 wow fadeInUp" data-wow-delay=".6s">
+                        <img src="../images/c_j_51.png" alt="">
+                        <div class="prd_card">
+                            <h4>张露露</h4>
+                            <p><span>零基础</span>  10年考入北京林业大学  </p>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp" data-wow-delay=".6s">
+                        <img src="../images/c_j_53.png" alt="">
+                        <div class="prd_card">
+                            <h4>姚雅洁</h4>
+                            <p><span>零基础</span> 15年考入北京服装学院</p>
+                        </div>
+                    </li>
+                    <li class="last_li wow fadeInUp" data-wow-delay=".9s">
+                        <img src="../images/c_j_54.png" alt="">
+                        <div class="prd_card">
+                            <h4>郭懿恒</h4>
+                            <p><span>零基础</span> 15年考入北京服装学院</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bffooter" style="margin-top:120px;margin:auto">
+            <div class="wrapper1120" style="text-align:center;padding-left:10px;">
+                <!--1-->
+                <div class="c-f-d1" style="width:120px;">
+                    <ul class="c-f-u1">
+                        <li><a class="c-f-a1">精品课程</a></li>
+                        <li><a class="c-f-a1">北服简介</a></li>
+                        <li><a class="c-f-a1">北服作品</a></li>
+                    </ul>
+                </div>
+                <!--2-->
+                <div class="c-f-d1" style="width:120px;">
+                    <ul class="c-f-u1">
+                        <li><a class="c-f-a1">名师团队</a></li>
+                        <li><a class="c-f-a1">北服生活</a></li>
+                        <li><a class="c-f-a1">北服环境</a></li>
+                    </ul>
+                </div>
+                <!--3-->
+                <div class="c-f-d2" style="width:620px;">
+                    <ul class="c-f-u2">
+                        <li>
+                            <div style="width:115px;" align="center">
+                                <img src="../images/tuc1.png" width="90"/>
+
+                                <p class="c-f-p1"><img src="../images/wx.png" width="22" class="c-f-img3"/><span
+                                        class="c-f-ss1">&nbsp;张老师</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="width:115px;" align="center">
+                                <img src="../images/tuc2.png" width="90"/>
+
+                                <p class="c-f-p1"><img src="../images/wx.png" width="22" class="c-f-img3"/><span
+                                        class="c-f-ss1">&nbsp;申老师</span>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div style="width:115px;" align="center">
+                                <img src="../images/tuc3.png" width="90"/>
+
+                                <p class="c-f-p1"><img src="../images/wb.png" width="22" class="c-f-img3"
+                                                       style="margin-left:12px;"/><span
+                                        class="c-f-ss1">&nbsp;北服人画室</span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--4-->
+                <div class="c-f-d1" style="width:120px;">
+                    <ul class="c-f-u1">
+                        <li><a class="c-f-a1">辉煌成绩</a></li>
+                        <li><a class="c-f-a1">在线报名</a></li>
+                        <li><a class="c-f-a1">联系方式</a></li>
+                    </ul>
+                </div>
+                <!--5-->
+                <div class="c-f-d1" style="width:120px;">
+                    <ul class="c-f-u1">
+                        <li><a class="c-f-a1">招商简介</a></li>
+                        <li><a class="c-f-a1">问题答疑</a></li>
+                        <li><a class="c-f-a1">达人服务</a></li>
+                    </ul>
+                </div>
+
+                <div style="clear:both"></div>
+                <div align="center" style="margin-top:58px;">
+                    <span style="color:white;font-size:12px;">联系方式：15110051368（张老师）  15901233991（申老师）    画室地址：朝阳区亚运村小营路阳明广场北楼5层北服人画室</span>
+                </div>
+
+
+            </div>
+            <!--end wrapper1220-->
+        </div>
+        <div class="clearfix"></div>
+        <!--底部1-->
+        <div class="comm-footer-1">
+            <div class="hd-comm">
+                <div align="center" style="padding-top:17px;">
+                    <span style="font-size:12px;">版权所有 © 2016 北京北服人文化传媒有限公司. All Rights Reserved. 保留所有权利    京ICP备14023289号</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/MYJS.js"></script>
+<script src="../js/indexslide.js"></script>
+<script src="../js/video-js.js"></script>
+    <!-- wow.js --><!-- js动画库,依赖animated.css -->
+    <script src="http://cdn.dowebok.com/131/js/wow.min.js"></script>
+    <script>
+        $(function(){
+
+            var wow = new WOW({
+                boxClass: 'wow',
+                animateClass: 'animated',
+                offset: 0,
+                mobile: true,
+                live: true
+            });
+            wow.init(); 
+  
+        })
+    </script>
+
+<script type="text/javascript" src="../js/jquery.timelinr-0.9.53.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $().timelinr({
+            autoPlay: 'false',
+            autoPlayDirection: 'forward',
+            startAt: 2
+        })
+
+        $('.banner_btnWarpper').delegate('a', 'mouseover', function(event) {
+            $(this).addClass('active').siblings().removeClass('active')
+        });
+
+        $('.manu_title.s').delegate('h3', 'click', function(event) {
+            $('.manu_list').eq($(this).index()).addClass('active animated').siblings().removeClass('active animated');
+        });
+
+        $('.manu_title.x').delegate('h3', 'click', function(event) {
+            $('.nixi_list').eq($(this).index()).addClass('active animated').siblings().removeClass('active animated');
+        });
+
+        $('.prov_list').hover(function() {
+            $(this).find('.prov_student').fadeIn().addClass('active')
+        }, function() {
+            $(this).find('.prov_student').fadeOut().removeClass('active')
+        });
+            
+    });
+
+</script>
+</html>

@@ -1,0 +1,272 @@
+.hp{
+    width: 90%;
+    margin: 0 auto;
+}
+.vipServeBox {
+    width: 100%;
+}
+.vipServeTab03{
+    width: 100%;
+}
+.vipServeTab03 .marketInfor{
+    width: 90%;
+}
+.vipServeBoxInner {
+    margin: 0 auto;
+}
+
+.vipTabBar {
+    width: 90%;
+    margin: 64px auto 36px;
+}
+
+.vipTabBar > i:nth-child(2) {
+    margin: 0 5px;
+}
+
+.vipTabOpt {
+    display: inline-block;
+    width: 32.5%;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 24px;
+    border: 1px solid #afaeac;
+    color: #000;
+}
+
+.vipTabOpt:hover {
+    border: 1px solid #dcb544;
+    color: #ecc451;
+    cursor: pointer;
+}
+
+.vipContent {
+    margin-top: 0;
+}
+
+.sixSystem {
+    position: relative;
+}
+
+.sixSysBox {
+    width: 90%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.sixSysBoxInner {
+    height: 650px;
+}
+
+.sixSys {
+    float: left;
+    width: 180px;
+    margin: 0 21px;
+}
+
+.sixSys img {
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+.sixSys i {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #323232;
+    margin: 69px auto 48px;
+}
+
+.sixSys p {
+    display: block;
+    width: 176px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #323232;
+    margin: 0 auto;
+}
+
+.sixSysBoxInner > .sixSys:nth-child(2), .sixSysBoxInner > .sixSys:nth-child(3), .sixSysBoxInner > .sixSys:nth-child(4) {
+    margin: 30px 29px;
+}
+
+.sixSysBoxInner > .sixSys:nth-child(1) {
+    margin-right: 28px;
+}
+
+.sixSysBoxInner > .sixSys:nth-child(1) {
+    margin-left: 28px;
+}
+
+.arrow {
+    display: block;
+    width: 39px;
+    height: 74px;
+    font-size: 74px;
+    text-align: center;
+    color: #d3d3d3;
+    font-family: "宋体";
+    font-weight: 900;
+}
+
+.arrow:hover {
+    color: #dcb544;
+    cursor: pointer;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 420px;
+    left: 10px;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 420px;
+    right: 40px;
+}
+
+.investmentServeBox {
+    height: 650px;
+}
+
+.investmentIntro {
+    margin-bottom: 68px;
+}
+
+.investmentServe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.investServe {
+    float: left;
+    width: 49.5%;
+    height: 380px;
+    border: 1px solid #dcb544;
+}
+
+.investServe > i:nth-child(1) {
+    display: block;
+    width: 122px;
+    height: 98px;
+    margin: 42px auto 32px;
+}
+
+.investmentServeL {
+    border-right: none;
+}
+
+.investmentServeL > i:nth-child(1) {
+    background: url("../img/sprite.png") -70px -150px no-repeat;
+}
+
+.investmentServeR > i:nth-child(1) {
+    background: url("../img/sprite.png") -215px -150px no-repeat;
+}
+
+.investServe > i:nth-child(2) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #323232;
+    margin-bottom: 45px;
+}
+
+.investServe p {
+    display: block;
+    text-align: center;
+    width: 501px;
+    font-size: 16px;
+    color: #999;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.vipServeTab02{
+    width: 100%;
+    height: 800px;
+}
+.waringBox{
+    margin-bottom: 26px;
+}
+.vipServeTabIptBox i{
+    font-size: 18px;
+    color: #d7961c;
+}
+.vipServeTabIptBox s{
+    display: inline-block;
+    font-size: 20px;
+    color: #d7961c;
+    margin-bottom: 0;
+}
+.vipServeTabIptBox{
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.vipServeTabIptBox input{
+    margin: 0;
+}
+.vipServeTabIptTitleBox{
+    width: 180px;
+}
+.vipMoneyChoose>div:nth-child(2),.vipMoneyChoose>div:nth-child(3),.vipMoneyChoose>div:nth-child(4),.vipMoneyChoose>div:nth-child(5){
+    width: 15%;
+}
+.vipMoney{
+    margin-bottom: 30px;
+}
+.moneyBox>div{
+    margin: 31px 0;
+}
+.vipSubmit{
+    margin: 0 auto 20px;
+}
+.vipSubmitBox{
+    width: 750px;
+    margin: 0 auto;
+}
+.journalSingleBox{
+    position: relative;
+    width: 45%;
+    float: left;
+    margin-left: 25px;
+}
+
+.journalSingleBox img{
+    width: 100%;
+    border: 1px solid #dcb544;
+}
+.journalBox{
+    width: 63%;
+    height: 1350px;
+    margin-top: 39px;
+}
+.journalBoxL,.journalBoxR{
+    float: left;
+}
+.journalBoxL{
+    width: 33%;
+}
+.journalTitle{
+    display: block;
+    width: 424px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0 15px;
+}
+.journalDescribe{
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999;
+    margin: 0 auto 16px;
+}
+.current{
+    border: 1px solid #dcb544;
+    color: #dcb544;
+}

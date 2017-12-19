@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+li {
+    list-style: none;
+}
+
+body {
+    background: #e8f4fc;
+}
+
+.head-d6_1 {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background-color: #0075CA;
+    top: 688px;
+}
+
+.head-d5_1 {
+    position: absolute;
+    top: 637px;
+    width: 1250px;
+    left: 50%;
+    margin-left: -630px;
+}
+
+.head-d4 h3 {
+    font-size: 19px;
+    font-family: "微软雅黑";
+    color: #0080cf;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+.head-d4 h3 span {
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: #ff4a00;
+    font-weight: normal;
+}
+
+.head-d4 button {
+    width: 160px;
+    height: 50px;
+    background: #0080cf;
+    border-radius: 6px;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+/*内容*/
+.nv {
+    transform: scale(0.93, 0.93);
+    margin-left: -454px;
+    margin-top: -12px;
+}
+
+.nr1, .nr2, .nr3, .nr4, .nr5, .nr6, .nr7 {
+    text-align: center;
+}
+
+.nr1 video {
+    width: 460px;
+    margin-left: 665px;
+    position: relative;
+    top: -344px;
+}
+
+.nr1 button {
+    width: 100px;
+    height: 40px;
+    background: #0080cf;
+    border-radius: 6px;
+    color: #FFF;
+    position: relative;
+    left: -156px;
+    top: -35px;
+}
+
+.nr1 h1 {
+    color: #0080cf;
+    font-size: 24px;
+    margin-top: -300px;
+}
+
+.nr1 p {
+    color: #313233;
+    font-size: 19px;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.bk {
+    margin-left: -200px;
+    margin-top: 80px;
+}
+
+.box1 {
+    width: 1120px;
+    height: 316px;
+    background: #e2e3e3;
+    margin-top: 50px;
+}
+
+.gai {
+    transform: scale(0.93, 0.93);
+    margin-left: -42px;
+    margin-top: 40px;
+}
+
+.zs1 {
+    transform: scale(0.93, 0.93);
+    margin-left: -42px;
+    margin-top: 40px;
+}
+
+.ts {
+    transform: scale(0.93, 0.93);
+    margin-left: -43px;
+    margin-top: 40px;
+}
+
+
+
+.t1 {
+    transform: scale(1.6, 1.6);
+    margin-top: 42px;
+}
+
+
+
+.xk {
+    position: relative;
+    top: 52px;
+    left: -1px;
+}
+
+.c-ca-img1 {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 120px;
+}
+
+.nr4 {
+    position: relative;
+}
+
+.nr4 .btn1 {
+    width: 72px;
+    height: 27px;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 14px;
+    background: #0080cf;
+    position: absolute;
+    right: 250px;
+    bottom: 59px;
+    border-style: none;
+}
+.nr5dv,.nr6dv{
+    width: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -14px;
+}
+.nr5dv img{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}

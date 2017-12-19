@@ -1,0 +1,214 @@
+
+a{
+    text-decoration: none!important;
+    color: #000;
+}
+.topLine{
+    background: #0075CA;
+    width: 100%;
+    height: 8px;
+    z-index: 9999999;
+}
+.bottomLine{
+    position: relative;
+}
+.bottomLine img{
+    position: absolute;
+    top:-60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40px;
+    display: inline-block;
+}
+.nav-box{
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    height:44px;
+    background: #ffffff;
+    width: 100%;;
+}
+.nav{
+    width: 1250px;
+    margin: 0 auto;
+    height:44px;
+    /*border: 1px solid #9d9d9d;*/
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+}
+.navLeft{
+    float: left;
+    width: 520px;
+    height: 44px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+}
+.navCenter {
+    width:210px;
+    float: left;
+}
+
+
+.navRight{
+    float: left;
+    width: 520px;
+    height: 44px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+}
+.nav a{
+    float: left;
+    font-size: 20px;
+    line-height: 44px;
+    display: inline-block;
+    width:130px ;
+    background: #ffffff;
+    color: #000;
+}
+.nav a:hover{
+    text-decoration-line: none;
+    background: #0075CA;
+    color: #fff;
+    -webkit-transition: all 0.5s linear;
+}
+.navCenter a:hover{
+    background: rgba(255, 255, 255, 0);
+}
+.navCenter a{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: transparent;
+}
+.navCenter img{
+    width:200px;
+    position: absolute;
+    left:5px;
+    bottom:0;
+}
+#banner-box{
+    opacity: 1;
+    position: fixed;
+    z-index: -99;
+    width: 100%;
+}
+#banner-box-00{
+    opacity: 1;
+    width: 100%;
+}
+#slideBox{
+    position: absolute;
+    left:0;
+    right:0;
+    top: 99%;
+    background-color: #fff;
+    min-width: 1349px;
+    overflow-x: visible;
+}
+.banner-box{
+    background: url("../images/basdasd.png") no-repeat;
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.chooseC-c6-a1 {
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    background-color: #F1AD00;
+    color: white;
+}
+
+.btn-in-01,.btn-in-02{
+    display: block;
+    width: 70px;
+    background-color: #F1AD00;
+    line-height: 2;
+    border-style: none;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.btn-in-01 a:hover{
+    color: #1e4bcf;
+}
+.btn-in-02 a:hover{
+    color: #1e4bcf;
+}
+.btn-in-01{
+    background-color: #fff;
+    color: #0075CA;
+    top:92px;
+    left:14%;
+}
+.btn-in-01 a{
+    color: #0075CA;
+}
+.btn-in-02 a{
+    color: #fff;
+}
+.btn-in-02{
+    top: 121px;
+    right: 1%;
+}
+.Map{
+    position: relative;
+}
+.toConnectUs01,.toConnectUs02,.toConnectUs03,.toConnectUs04,.toConnectUs05{
+    display: block;
+    position: absolute;
+    z-index: 999;
+}
+.toConnectUs01{
+    width: 100px;
+    height: 30px;
+    /*background-color: red;*/
+    top: -449px;
+    left: 330px;
+}
+.toConnectUs02{
+    width: 301px;
+    height: 238px;
+    /*background-color: red;*/
+    top: -409px;
+    left: 124px;
+}
+.toConnectUs03{
+    width: 118px;
+    height: 22px;
+    /*background-color: red;*/
+    top: -169px;
+    left: 214px;
+}
+.toConnectUs04{
+    width: 118px;
+    height: 22px;
+    /*background-color: red;*/
+    top: -289px;
+    left: 730px;
+}
+.toConnectUs05{
+    width: 200px;
+    height: 200px;
+    top: -219px;
+    left: 850px;
+}
+.bbp{
+    display: block;
+    color: #fff;
+    font-size: 34px;
+    line-height: 2;
+    position: absolute;
+    top:40%;
+    left: 10%;
+}

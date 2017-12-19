@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <!--<link rel="icon" href="Home/img/favicon.ico"/>-->
+    <!--<link rel="stylesheet" href="Home/css/intel.css"/>-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <!--<link rel="stylesheet" href="../Home/css/animate.css"/>-->
+    <link rel="stylesheet" href="../Home/css/commen.css"/>
+    <!--[if lt IE 9]>
+    <script src="../Home/js/html5shiv.min.js"></script>
+    <script src="../Home/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        /*美考专区*/
+        .MKnav{
+            width:1250px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            position: relative;
+            /*padding: 0 0 5px 0;*/
+        }
+        .MKlogo{
+            width: 250px;
+        }
+        .MKnavBox{
+            background: url("../images/meikaonav.png") no-repeat -10px;
+            height: 48px;
+            width: 998px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-left: 1px solid #0B7ACD;
+            border-right: 1px solid #0B7ACD;border-right: 1px solid #0B7ACD;
+
+
+        }
+        .MKnavBox a{
+            width:9.09%;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            display: inline-block;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .MKnavBox a:hover{
+            background: #FFFFFF;
+            color: #0B7ACD;
+            border-top: 1px solid #0B7ACD;
+            border-bottom: 1px solid #0B7ACD;
+        }
+        .MKnavDown{
+            width: 1250px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #nav3,#nav4{
+            display: none;
+            position: absolute;
+            border: 2px solid #0B7ACD;
+            border-radius: 4px;
+            line-height: 40px;
+            height: 40px;
+            padding: 0 7px;
+        }
+        #nav3 a,#nav4 a{
+            text-decoration: none;
+            color: #666;
+            margin:0 5px;
+        }
+        #nav3>div,#nav4>div{
+            position: relative;
+        }
+        #nav3 img{
+            position: absolute;
+            margin: auto;
+            top: -95px;
+            left: 0;
+            bottom:0;
+            right:0;
+        }
+        #nav4 img{
+            position: absolute;
+            margin: auto;
+            top: -95px;
+            left: -50px;
+            bottom:0;
+            right:0;
+        }
+        .searchBox{
+            margin-top: 61px;
+            color: #007CD2;
+            font-size: 20px;
+            position: relative;
+            top: 3px;
+        }
+        .searchBox input{
+            width: 1000px;
+            background: #F5F5F5;
+            padding:   10px;
+            height: 33px;
+            line-height: 33px;
+            border:1px solid #d5d5d5;
+            font-size: 16px;
+        }
+        .searchBox span{
+            margin: 0 5px;
+        }
+        .navImg{
+            margin:25px 0;
+            overflow: hidden;
+            width: 100%;
+        }
+        .navImg img{
+            border: 3px solid #0B7ACD;
+        }
+        .navImg img:first-child{
+            width: 823px;
+            height: 225px;
+        }
+        .navImg img:last-child{
+            width: 400px;
+            height: 225px;
+        }
+    </style>
+</head>
+<body>
+<div style="width: 1250px;margin: 0 auto">
+    <nav>
+        <div class="MKnav">
+            <div class="MKlogo">
+                <img src="../images/meikaologo.png" alt="">
+            </div>
+
+            <div class="MKnavBox">
+                <a href="MKwenzhang1.html">美考资讯</a>
+                <a href="MKwenzhang1.html">画室资讯</a>
+                <a href="MKwenzhang1.html">美术联考</a>
+                <a href="#nav4">招生简章</a>
+                <a href="#nav5">美术图库</a>
+                <a href="#nav6">考试技巧</a>
+                <a href="#nav7">教学视频</a>
+                <a href="#nav8">留学出国</a>
+                <a href="#nav9">艺考成绩</a>
+                <a href="#nav10">艺术考研</a>
+                <a href="#nav11">家长问答</a>
+            </div>
+
+        </div>
+        <div class="MKnavDown" style="position:relative;">
+            <div id="nav1" class="MKCont"></div>
+            <div id="nav2" class="MKCont"></div>
+            <div id="nav3" class="MKCont" style="top:19px;left: 273px; ">
+                <a href="">联考信息</a>
+                <a href="">联考考题</a>
+                <a href="">各省录取线</a>
+                <a href="">按照联考成绩录取的院校</a>
+                <div class="">
+                    <img src="../images/jiantoshang.jpg" height="17" width="28"/>
+                </div>
+            </div>
+            <div id="nav4" class="MKCont" style="top: 19px;left: 370px;">
+                <a href="">招生简章</a>
+                <a href="">招生计划</a>
+                <a href="">录取分数线</a>
+                <a href="">考点分布</a>
+                <a href="">历年考题</a>
+                <a href="">专业介绍</a>
+                <div class="">
+                    <img src="../images/jiantoshang.jpg" height="17" width="28"/>
+                </div>
+
+            </div>
+            <div id="nav5" class="MKCont"></div>
+            <div id="nav6" class="MKCont"></div>
+            <div id="nav7" class="MKCont"></div>
+            <div id="nav8" class="MKCont"></div>
+            <div id="nav9" class="MKCont"></div>
+            <div id="nav10" class="MKCont"></div>
+            <div id="nav11" class="MKCont"></div>
+        </div>
+    </nav>
+    <div class="searchBox">
+        <input type="text" placeholder="输入你想要查找的内容">
+        <!--<span class="glyphicon glyphicon-search"></span>-->
+        <img src="../images/MKfangdajing.png" height="30" width="30"/>
+        <span>|</span>
+        <img src="../images/MKiphone.png" height="29" width="29"/>
+        <!--<span class="glyphicon glyphicon-earphone"></span>-->
+        <span>4008-010-611</span>
+    </div>
+    <div style="    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;">
+        <a target="_blank" href="MKyuanxiaodaquan.html">全国美术院校</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">九大美院</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">13所参照独立院校</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">31所独立院校</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">211工程重点大学</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">参考联考院校</a>
+        <a target="_blank" href="MKyuanxiaodaquan.html">有服设专业院校推荐</a>
+    </div>
+    <div style=" height: 30px;
+    line-height: 30px;">
+        <a target="_blank" href="MKqinghuadaxue.html">中国美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">天津美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">鲁迅美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">广州美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">湖北美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">四川美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">天津美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">广州美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">西安美术学院</a>
+        <a target="_blank" href="MKqinghuadaxue.html">湖北美术学院</a>
+    </div>
+    <div class="navImg">
+    <img src="../images/meikaozhuanqu_03.jpg" class="img-responsive pull-left"/>
+    <img src="../images/meikaozhuanqu_05.jpg" class="img-responsive pull-right"/>
+</div>
+
+</div>
+<script src="../Home/js/jquery-1.11.3.min.js"></script>
+<script src="../Home/js/bootstrap.min.js"></script>
+<script>
+$('.MKnavBox a').eq(2).hover(function(){
+    $('#nav3').show().siblings().hide();
+})
+$('#nav3').hover(function () {
+    $(this).show()
+},function () {
+    $(this).hide()
+})
+$('#nav3 a').click(function () {
+    $('#nav3').hide()
+})
+$('.MKnavBox a').eq(3).hover(function(){
+    $('#nav4').show().siblings().hide();
+})
+$('#nav4').hover(function () {
+    $(this).show()
+},function () {
+    $(this).hide()
+})
+
+$('#nav4 a').click(function () {
+    $('#nav4').hide()
+})
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,169 @@
+html{
+    font-size:62.5%
+}
+
+body{
+    font-size: 1.4rem;
+}
+.banner_box{
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.xkzx img,.jxcj img{
+    width: 100%;
+    height: auto;
+}
+.xkzx .col-xs-6{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.jxcj dd p{
+    font-size: 0.8rem;
+    color: #565656;
+    margin-bottom: 5px;
+}
+.jxcj dd{
+    padding: 5px ;
+}
+.jxcj dd:hover{
+    font-weight: bold;
+}
+.lianjie8{
+    background: url("../imagesMO/anniu8.jpg") no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 100px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lianjie8 a{
+    display: block;
+    width: 25%;
+    height: 50px;
+    border: 1px solid #fff;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #C2C2C2;
+}
+.blue{
+    background: #007AD2;
+}
+/*标题栏标题*/
+.titleBox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.titleBox span:first-child,.titleBox span:last-child{
+    border-bottom: 1px dashed #dddddd;
+    width: 40%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.titleBox span:last-child{
+
+}
+.titleBox span:first-child{
+
+}
+.titleBox span:nth-child(2){
+    text-align: center;
+    display: inline-block;
+    width: 96px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    color: #0B7ACD;
+    font-size: 2.4rem;
+}
+.news p span{
+    color: #0862BF;;
+}
+.news p{
+    border-bottom: dashed #dddddd 1px;
+    height: auto;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    /*height: 100px;*/
+}
+.about p{
+    border-bottom: dashed #dddddd 1px;
+    height: auto;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    /*height: 100px;*/
+}
+.aboutwe{
+    background: #e0e0e0;
+    position: relative;
+    width: 100%;
+    height: 230px;
+}
+.aboutwe a{
+    margin: 0 15px;
+
+}
+.aboutwe img{ width: 120px;}
+.aboutwe div.container{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    height: 187px;
+}
+.aboutwe div.container p:nth-child(2){
+    font-size: 3rem;
+    color: #007FCF;
+}
+.tell{
+    margin-top: 15px;
+    background: #007FCF;
+    height: 50px;
+}
+.tell span{
+    color: #fff;
+    line-height: 50px;
+}
+.tells img{
+    margin-bottom: 15px;
+}
+.tells h2{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

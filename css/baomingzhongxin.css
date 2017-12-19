@@ -1,0 +1,37 @@
+
+.select8,.select6,.select4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.select8 p,.select6 p,.select4 p{
+    display: inline-block;
+    width: 46.6%;
+    height: auto;
+    margin: 5px 5px;
+    position: relative;
+}
+.select8 p span,.select6 p span,.select4 p span{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.select4 p span{
+    color: #007AD2;
+    font-size: 1.7rem;
+    height: 40px;
+    line-height: 20px;
+}
+.center-block{margin:15px 0;}
+img{
+    border:1px solid transparent;}
+/*#007FCF*/

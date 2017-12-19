@@ -1,0 +1,197 @@
+.problemBox{
+    width: 100%;
+}
+.problemBoxInner{
+    margin: 0 auto;
+}
+.problemTitleBox{
+    width: 90%;
+    margin: 0 auto;
+}
+.problemTitle{
+    display: inline-block;
+    float: left;
+    width: 24.5%;
+    height: 58px;
+    font-size: 24px;
+    color: #999896;
+    text-align: center;
+    line-height: 58px;
+    border: 1px solid #999896;
+    margin: 48px 0 48px;
+}
+.problemTitle:hover{
+    color: #ecc451;
+    border: 1px solid #ecc451;
+    cursor: pointer;
+}
+.talkBar{
+    width: 90%;
+    margin: 0 auto;
+    height: 750px;
+}
+.talkBarBox{
+    position: relative;
+}
+.talkBarTitle{
+    font-size: 36px;
+    color: #ab1e23;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.manHead,.womanHead{
+    width: 260px;
+    height: 260px;
+}
+.manHead{
+    position: absolute;
+    top:98px;
+}
+.womanHead{
+    position: absolute;
+    top:204px;
+    right:0;
+}
+.blueTalkBar {
+    display: block;
+    width: 694px;
+    height: 121px;
+    text-align: center;
+    background: url("../img/blueTalkBar.png") no-repeat;
+    position: absolute;
+    top:30px;
+    left:272px;
+}
+.blueTalkBar p{
+    display: block;
+    width: 630px;
+    margin: 43px 0 0 64px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+
+}
+.yellowTalkBar{
+    display: block;
+    width: 993px;
+    height: 208px;
+    text-align: center;
+    background: url("../img/yellowTalkBar.png") no-repeat;
+    position: absolute;
+    top:450px;
+    left:120px;
+}
+.yellowTalkBar p{
+    display: block;
+    width: 773px;
+    margin: 65px 0 0 81px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+}
+.yellowTalkBar p{
+    width: 808px;
+}
+.blueTalkBar02{
+    width: 744px;
+    height: 141px;
+    background: url("../img/blueTalkBar02.png") no-repeat;
+}
+.yellowTalkBar02{
+    width: 993px;
+    height: 249px;
+    background: url("../img/yellowTalkBar02.png") no-repeat;
+}
+.yellowTalkBar02 p{
+    width: 898px;
+    margin: 25px 0 0 12px;
+}
+.yellowTalkBar02-p p{
+    margin-top: 45px;
+}
+#laws .strategy-problem{
+    width: 100%;
+}
+#laws .strategy-problem .lawsBoxL{
+    width: 30%;
+}
+#laws .strategy-problem .lawsBoxR{
+    width: 66%;
+}
+
+#laws{
+    width: 90%;
+    margin: 0 auto;
+}
+.lawsBoxL{
+    margin-top: 0;
+}
+.lawsBoxR{
+    width: 60%;
+    margin-left: 43px;
+    margin-bottom: 175px;
+}
+.lawsBoxL,.lawsBoxR{
+    display: inline-block;
+    float: left;
+}
+.lawsContent{
+    font-size: 24px;
+    color: #2b2b2b;
+    line-height: 1.85;
+    float: right;
+}
+.lawItem p{
+    line-height: 2.5;
+}
+.lawTitle{
+    width: 100%;
+    text-align: center;
+}
+.contentNumber{
+    font-size: 18px;
+    font-weight: 900;
+}
+.conNo{
+    text-indent: 2em;
+    font-size: 16px;
+}
+.conNoHead{
+    font-size: 16px;
+    font-weight: 900;
+}
+.lawsContentHead{
+    text-align: center;
+}
+.lawItem a{
+    font-size: 18px;
+    font-weight: 900;
+}
+.risk{
+    width: 100%;
+}
+.riskBox{
+    width: 90%;
+    margin: 48px auto 219px;
+}
+.riskTitle{
+    font-size: 18px;
+    font-weight:900;
+}
+.riskContent{
+    font-size: 16px;
+}
+.riskTitle,.riskContent{
+    color: #2b2b2b;
+    line-height: 1.5;
+}
+.current{
+    border: 1px solid #dcb544;
+    color: #dcb544;
+}
+.current-a{
+    color: #dcb544;
+}

@@ -1,0 +1,43 @@
+.tell{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+}
+.zixun img{
+    width: 100%;
+    height: 85px;
+}
+.zixun p{
+    width: 100%;
+    height: 85px;
+    color: #333;
+    font-size: 1.4rem;
+}
+.zixun b{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    width:100%;
+}
+/*资讯内页*/
+.tells{
+    /*position: fixed;*/
+    bottom: 59px;
+    width:100%;
+    background: #FFFFFF;
+}
+.zixunBox div{
+    padding: 10px;
+    height: auto;
+}
+.zixunBox div p{
+
+    height: auto;
+}
+.zixunBox p{
+    width: 100%;
+    height: 85px;
+    color: #333;
+    font-size: 1.4rem;
+}

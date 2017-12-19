@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* CSS Document */
+li {
+    list-style: none;
+}
+
+.btn1 {
+    width: 130px;
+    height: 35px;
+    background: #0080cf;
+    border-radius: 8px;
+    color: #FFF;
+    position: relative;
+    top: 351px;
+    left: 232px;
+}
+
+.head-d6-1 {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background-color: #0075CA;
+    top: 533px;
+}
+
+.head-d5-1 {
+    position: absolute;
+    top: 482px;
+    width: 1250px;
+    left: 50%;
+    margin-left: -630px;
+}
+
+.nr1 {
+    text-align: center;
+}
+
+.p1 {
+    font-size: 14px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nr1 h1 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-top: 80px;
+}
+
+.ul2 span {
+    width: 187px;
+    display: block;
+    color: #FFF;
+    font-size: 14px;
+    position: absolute;
+}
+
+.ul2 li {
+    width: 185px;
+    height: 295px;
+    background: #CC9;
+    position: relative;
+    overflow: hidden;
+}
+
+.span1 {
+    height: 33px;
+    background: #000;
+    opacity: 0.6;
+    line-height: 33px;
+    top: -33px;
+    transition: top 0.5s;
+}
+
+.span2 {
+    height: 40px;
+    background: url(../images/bj1.png);
+    font-weight: bold;
+    line-height: 40px;
+    top: 295px;
+    transition: top 0.5s;
+}
+
+.li1 {
+    margin-top: -399px;
+}
+
+.ul2 li:hover .span1 {
+    top: 0px;
+}
+
+.ul2 li:hover .span2 {
+    top: 254px;
+}
+.jiaoxue{
+    width:1120px;
+    position: relative;
+    height: 200px;
+}
+.jiaoxue img{
+    position: absolute;
+
+    height: auto;
+    height: 200px;
+}
+.jiaoxue img:first-child{
+    left: 1px;
+    width: 26.7%
+}
+.jiaoxue img:nth-child(2){
+    left: 246px;
+    width: 30.6%
+}
+.jiaoxue img:nth-child(3){
+    left:535px;
+    width: 30.7%;
+}
+.jiaoxue img:last-child{
+    right: 0px;
+    width: 26.5%;
+}

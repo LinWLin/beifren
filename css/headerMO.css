@@ -1,0 +1,86 @@
+#nav div.logoBox{
+    background: #007AD2;
+    width: 100%;
+    height:50px;
+    position: relative;
+}
+#nav div img.logo{
+   position: absolute;
+    margin: auto;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+}
+#dianji{
+    width: 50px;
+    height: auto;
+}
+#nav{
+    position: relative;
+}
+#navBox{
+    position: absolute;
+    /*top:0;*/
+    right: 0;
+    width:40%;
+    height:auto;
+    /*background: red;*/
+    display: none;
+    /*padding: 2rem;*/
+}
+.fidex{
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 99999;
+
+}
+/*#navBox a{*/
+    /*width: 100%;*/
+    /*display: block;*/
+    /*height: 4rem;*/
+    /*line-height:4rem;*/
+    /*color: #FFFFFF;*/
+    /*background: #0B7ACD;*/
+    /*border: 1px solid #FFFFFF;*/
+/*}*/
+/*#navBox a:hover{*/
+    /*background: #FFFFFF;*/
+    /*color: #0B7ACD;*/
+/*}*/
+
+@media all and (orientation: landscape) {
+    /*横屏时代码*/
+    #navBox a{
+        width: 50%;
+        display: inline-block;
+        height: 4rem;
+        line-height:4rem;
+        color: #FFFFFF;
+        background: #0B7ACD;
+        border: 1px solid #FFFFFF;
+    }
+    #navBox a:hover{
+        background: #FFFFFF;
+        color: #0B7ACD;
+    }
+}
+
+@media all and (orientation: portrait) {
+    /*竖屏时代码*/
+    #navBox a{
+        width: 100%;
+        display: block;
+        height: 4rem;
+        line-height:4rem;
+        color: #FFFFFF;
+        background: #0B7ACD;
+        border: 1px solid #FFFFFF;
+    }
+    #navBox a:hover{
+        background: #FFFFFF;
+        color: #0B7ACD;
+    }
+}

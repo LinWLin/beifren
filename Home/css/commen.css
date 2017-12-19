@@ -1,0 +1,328 @@
+/*font*/
+.f-clear:before, .f-clear:after {
+	content: " ";
+	display: block;
+	clear: both;
+	overflow: hidden;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+}
+@font-face {
+	font-family:MFYAYUAN_NONCOMMERCIAL-REGULAR;
+	src: url('../font-app/MFYAYUAN_NONCOMMERCIAL-REGULAR.OTF');
+}
+@font-face {
+	font-family:xxx;
+	src: url("../font-app/迷你简菱心.TTF");
+}
+
+.MFYAYUAN_NONCOMMERCIAL-REGULAR{
+	font-family: "MFYAYUAN_NONCOMMERCIAL-REGULAR";
+	font-size: 60px;
+}
+
+/*nav start*/
+.navfixed{
+	position: fixed;
+    top: 0;
+    z-index: 500;
+    width: 100%;
+}	
+.nav-line{
+	border-top:20px solid #1578C9;
+}
+.nav-left li{
+	float: left;
+}
+.nav-right li{
+	float:right;
+}
+.nav-left li,.nav-right li{
+	    width: 20%;
+    list-style: none;
+    margin: 0 3% 0 2%;
+}
+.dropdown-menus{
+	display: none;
+}
+.xiala{
+	padding: 0;
+	border:1px #000000 solid;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.xiala li{
+	margin-left: 10px;
+	width: 100%;
+}
+.nav-img{
+	width: 340px;
+	height: 120px;
+}
+#nav .row{
+	margin: 0;
+}
+.banner02{
+	/*z-index:-1;
+	margin-top: -118px;*/
+}
+/*nav end*/
+
+/*各模块标题样式start*/
+#Top1 .container>h2,#Top1 .container>h3,#Top1 .container>h4{
+	margin: 0 2% 0 0 ;
+	display: inline-block;	
+}
+#Top2 .row  .row div:first-child,#Top2 .row .row div:last-child{
+	margin-top: 8.5%;
+	border-bottom: 3px solid #0069C6;
+}
+#Top2 .row  .row .a,#Top2 .row .row .a{/*top小号版*/
+	margin-top: 4.5%;
+	border-bottom: 3px solid #0069C6;
+}
+#Top2 h1{color: #0069C6;}
+
+#Top3 div:first-child,#Top3 div:last-child{
+	margin-top: 2.6%;
+	border-bottom: 1px dotted #000000;
+	
+}
+#Top3 h1,#Top3 h1{color: #0065C5;}
+
+.Top5 h1{
+	display: inline-block;
+	margin: 43px auto;
+}
+.Top5>img{
+	 margin-top: -14px;
+    margin-right: 20px;
+}
+.Top5 span{
+    display: block;
+    border-bottom: 1px dotted #555;
+    min-width: 465px;
+    margin-top: 64px;
+}
+
+/*各个模块标题样式end*/
+/*footer start*/
+#footer{
+    background: url("../img/commen/8638.png") no-repeat;
+    height: 320px;
+    background-size: 100% 100%;
+}
+.footer-middle{
+    padding: 5.5% 0 0 0;
+}
+#footer .col-md-6{
+    padding:16% 0% 12% 0%;
+}
+.foot{
+    color: #FAFCFD;
+}
+.foot h5{
+    line-height: 1.81em;
+}
+
+.a_white{
+	color: #FFFFFF;
+}
+.footer-middle-h5 h5{
+	margin-left:11%;
+}
+/*footer end*/
+/**/
+/**/
+/*fidex向上返回顶部*/
+#fidex{
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+}
+#fidex .up{
+	width: 50px;
+	background: #69B4E3;
+}
+#fidex dl{
+	/*background: #F2F2F2;*/
+	width: 120px;
+	margin-bottom:10px;
+	padding-bottom:10px ;
+}
+#fidex dl dt h4{
+	height: 30px;
+	line-height: 30px;
+	background: #0075C8;
+}
+/*/选课栏目01 =》首页，选课中心*/
+.xuankebanner01 {
+	margin: 0;
+	padding: 0;
+}
+.xuankebanner01 .col-md-8{
+	margin: 0;
+	padding: 0;
+}
+.fenlei>div.col-md-4{
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	border-right: 1px solid #FFFFFF;
+}
+.fenleimin>.row{
+	height: 150px;
+}
+.inline-center{
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.zzc{
+	width:250px;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+
+
+.divA {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 10px 20px;
+}
+
+
+.a2{
+    padding: 8% 0 14%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 152px;
+    left: -329PX;
+    width:100%;
+    height: 300px;
+    transition: all 0.2s;
+}
+
+
+.zzcz1{
+	width: 331px;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+.divAz1 {
+    position: absolute;
+    top: 83px;
+    height: 144px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+}
+.a2z1{
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 76px;
+    left: -329PX;
+    width: 100%;
+    height: 144px;
+    transition: all 0.2s;
+}
+
+.fenleimin .col-md-12,.fenleimin .row{
+	padding: 0;
+	margin: 0;
+}
+.zzcz{
+	padding: 0;
+	margin: 0;
+	width: 331px;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+	    height: 144px;
+}
+.divAz {
+    position: absolute;
+    top: 83px;
+    height: 144px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+}
+.a2z{
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 76px;
+    left: -329PX;
+    width: 100%;
+    height: 151px;
+    transition: all 0.2s;
+}
+.zzcb{
+	width: 331px;
+	list-style: none;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+
+
+.divAb {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 10px 20px;
+}
+
+
+.a2b{
+    padding: 8% 0 14%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 300px;
+    left: -494PX;
+    width:100%;
+    height: 600px;
+    transition: all 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

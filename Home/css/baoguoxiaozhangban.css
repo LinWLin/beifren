@@ -1,0 +1,133 @@
+body {
+  position: relative;
+}
+.baoguoxiaozhangzhang-banner07{
+	background: url(../img/baoguoxiaozhangban/banner.png) no-repeat;
+	background-size:100% ;
+	width: 100%;
+	height: 1000px;
+}
+.meishu-box{
+	padding: 0 10% 0 10%;
+}
+.meishu-text{
+	margin-top: -37%;
+    margin-bottom: 33%;
+}
+.rectangle{
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	height: 556px;
+}
+.rectangle .row:first-child{
+    margin: 0 auto;
+    width: 800px;
+}
+.rectangle .row:last-child{
+		position: absolute;
+		top:230px;
+		left: 10%;
+		right:10% ;	
+	    margin: 0 auto;
+    /* margin-left: 150px; */
+    width: 1075px;
+    height: 300px;
+}
+.baokaobeifu{
+	width: 1024px;
+	height: 150px;
+	margin:1% auto;
+	background: url(../img/baoguoxiaozhangban/15.png) no-repeat;	
+}
+.zhuanye-box{
+	width: ;
+}
+.zhuanye-box li{
+	float: left;
+    width: 19.4%;
+    margin: 0%;
+    list-style: none;
+}
+/*七个矩形*/
+.qigejuxing{
+	  margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+.qigejuxing .row div b{
+	display: block;
+	width: 250px;
+	height: 150px;
+	border: 1px solid #0065C5;
+	border-radius:4px ;
+}
+.qigejuxing .row:first-child{
+    margin: 0 auto;
+    width: 800px;
+}
+.qigejuxing .row:last-child{
+		position: absolute;
+		top:230px;
+		left: 10%;
+		right:10% ;	
+	    margin: 0 auto;
+    /* margin-left: 150px; */
+    width: 1075px;
+    height: 300px;
+}
+/*为什么选择北服人*/
+.why{
+	background: url(../img/baoguoxiaozhangban/18.png) no-repeat;
+	height: 720px;
+	width: 100%;
+	background-size:100% ;
+}
+.why .col-md-4 div.row{
+	border: 1px solid #FFFFFF;
+	height: 360px;
+}
+.why .col-md-4{padding: 0;}
+.gain .col-md-3{
+	width:23%;
+	border: 1px solid #0065C5;
+	height: 125px;
+	background: #E8F4FC;
+	border-radius: 4px;
+	margin:1%
+}
+/*六大优势*/
+.six{
+	height: 305px;
+	background:url(../img/baoguoxiaozhangban/19.png) no-repeat ;
+	
+}
+.six>div{
+	border-left:1px solid #FFFFFF ;
+	height: 100%;
+}
+/*报名方式*/
+.apply{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.apply b{
+	display: block;
+	width: 100%;
+	border: 1px solid #5FAFE1;
+	height: 150px;
+	border-radius: 4px;
+	
+}
+.sao{
+	width:381px ;
+	margin: 0 auto;
+}
+.sao img{
+	margin-left:10px ;
+}
+.whyapply{
+	background: #DEF0FA;
+	height: 810px;
+}

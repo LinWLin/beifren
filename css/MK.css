@@ -1,0 +1,246 @@
+.MK{
+    width: 1250px;
+    margin: 0 auto;
+    height: auto;
+}
+.MKrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.MKrow>div{
+    width: 400px;
+    height: 250px;
+    border: 1px solid #0B7ACD;
+}
+.MKrow>div:nth-child(2){
+    margin: 0 25px;
+}
+
+
+
+.MKrow2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+}
+.MKrow2>div{
+    width: 400px;
+    height: 250px;
+    border: 1px solid #0B7ACD;
+}
+.MKrow2>div:nth-child(2){
+    margin-left:25px;
+    width: 825px;
+}
+
+.MK .guanggao {
+    position: relative;
+    margin-top: 25px;
+}
+.MK .guanggao img{
+    width: 100%;
+    border: solid 1px #0B7ACD;
+}
+.MK .guanggao span{
+    color: #0B7ACD;
+    position: absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    height:20px;
+}
+.MKbanner{
+    width: 100%;
+    border: 1px solid #0B7ACD;
+    height: auto;
+    margin-top: 25px;
+}
+
+.MKTextLittle{
+    color: #fff;
+    background-color:#0B7ACD;
+    border-bottom:1px solid #d5d5d5 ;
+    height: 38px;
+    line-height: 36px;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0;
+}
+.MKTextLittle a { color:#fff;}
+.MKTextLittlebg{
+    color: #ffffff;
+    background: #0B7ACD;
+}
+.MKTextCont{
+    display: block;
+    overflow: hidden;
+    height: 210px;width: 100%;
+    padding: 0 5px;
+}
+.MKTextCont img{
+    width: 60px;
+    height:60px;
+}
+.height90{height: 60px}
+.MKTextConttiltle{
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #d5d5d5;
+    width: 100%;
+}
+.height100{height: 95px}
+.height100 img{
+    height: 80px;
+    width: 80px;
+}
+/*文章页样式*/
+.MKrow3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 25px;
+}
+.MKrow3>div{
+    width: 825px;
+    height: auto;
+    /*border: 1px solid #0B7ACD;*/
+}
+.MKrow3>div:nth-child(2){
+    margin-left:25px;
+    width: 400px;
+}
+.MKTextCont3{
+    display: block;
+    overflow: hidden;
+    height: auto;width: 100%;
+    padding: 0 5px;
+}
+.MKTextCont3 div{
+    margin-bottom: 25px;
+    width: 100%;
+    border:1px solid #0B7ACD;
+    overflow: hidden;
+}
+.zxvxcv {
+    padding-bottom:20px;
+}
+.MKTextCont3>div:last-child{margin-bottom: 0px}
+.MKTextCont3 .container{height: auto;
+    padding-top:20px;
+border: none}
+.MKTextCont3 .container .MKText3{
+    background-color: #efefef;
+    border-radius:5px;
+    padding:0 15px;
+    border: none;margin: 0 auto 20px;
+}
+.MKTextCont3 .container .MKText3:hover {
+    background-color: #0B7ACD;
+}
+.MKText3:hover a {
+    color:#fff;
+}
+
+.anniu img{
+    float: left;
+    width: 166px;
+    height: auto;
+    margin: 5px 14px;
+}
+.mk2x4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.mk2x4>div {
+    border: 1px solid #0B7ACD;
+    width: 612px;
+    height: 250px;
+    overflow: hidden;
+}
+.MKqhdx{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: -9px;
+    background: #0B7ACD;
+    opacity: 0.7;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    /*display: none;*/
+}
+.wenzhangbox h3{
+    font-weight: 900;
+    color: red;
+    text-align: center;
+}
+.wenzhangbox p{
+    width: 95%;
+    margin: 10px auto;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+.wenzhangbox p:nth-child(2){
+    text-align: center;
+    color: #666;
+}
+.wenzhangbox p:nth-child(3){
+    display: block;
+    text-align: left;
+    text-indent: 4em;
+    border: 1px solid rgba(153, 153, 153, 0.69);
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.page-list .blankM02,.page-list .pagination .page-bottom,.page-list .pagination
+{
+    height: inherit;
+    border: none;
+}
+
+.pagination
+{
+	text-align:center;}
+	.page-bottom span,.page-bottom a
+	{
+		display:inline-block;
+		padding:0 5px;
+		margin:5px;
+		height:30px;
+	    border-radius: 5px;
+		background:#0B7ACD;
+		border:1px solid #0B7ACD;
+		color:#fff;
+		line-height:30px;
+		font-size:14px;
+		}
+		.page-bottom span span
+	{
+		display:block;
+		margin:0px;
+		font-size:14px;
+	}
+	.page-bottom .page-start,.page-bottom a span
+	{
+		margin:0px;
+		padding:0px;
+		height: 28px;}
+		.pagination .page-cur
+		{	
+			background-color:#fff;
+			color:#0B7ACD;}

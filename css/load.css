@@ -1,0 +1,163 @@
+.loadBox {
+    width: 100%;
+}
+.loadBox01{
+    background-color: #e5e7e8;
+}
+.loadBox02{
+    background-color: #f6f6f6;
+}
+.loadBoxInner01,.loadBoxInner02 {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #e5e7e8;
+}
+
+.loadBoxInner01 h1 {
+    font-size: 24px;
+    color: #000;
+    padding: 56px 0 20px 50px;
+}
+
+.loadBoxIntro {
+    display: block;
+    width: 100%;
+    height: 46px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2;
+    color: #999;
+}
+
+.loadOutBox {
+    width: 100%;
+    margin: 45px auto 0;
+}
+
+.loadOptBox {
+    width: 32%;
+    height: 180px;
+    background-color: #ffffff;
+    position: relative;
+    float: left;
+}
+.loadOptBox:hover{
+    box-shadow: 0px 0px 20px #d2d3d4;
+}
+
+.loadOutBox > .loadOptBox {
+    margin-bottom: 45px;
+}
+
+.loadOutBox > .loadOptBox:nth-child(2), .loadOutBox > .loadOptBox:nth-child(5) {
+    margin: 0 1%;
+}
+
+.loadOptBoxImg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border:1px solid #dcb544;
+    position: absolute;
+    top: 40px;
+    left: 14px;
+}
+.loadOptBoxImg img{
+    display: block;
+    width: 71px;
+    height: 71px;
+    margin: 0 auto;
+    padding: 14px 0;
+}
+
+.loadOptBoxImg + h2 {
+    font-size: 18px;
+    color: #000;
+    position: absolute;
+    left: 132px;
+    top: 26px;
+}
+
+.loadOptBoxImg + h2 + p {
+    display: block;
+    width: 62%;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #999;
+    position: absolute;
+    left: 132px;
+    top: 50px;
+}
+
+.loadBtnBox {
+    width: 94px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    color: #e6e6e6;
+}
+.loadBtnBox:hover{
+    border: 1px solid #dcb544;
+    color: #dcb544;
+    cursor: pointer;
+}
+
+.loadBtnBoxL {
+    position: absolute;
+    left: 132px;
+    top: 90px;
+}
+
+.lbImg {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../img/sprite.png") -26px -138px no-repeat;
+    margin: 3px 8px 5px 17px;
+}
+.loadBtnBox:hover .lbImg{
+    background: url("../img/sprite.png") 0 -138px no-repeat;
+}
+
+.lbText { 
+    vertical-align: 11px;
+}
+
+.loadBtnBoxR {
+    position: absolute;
+    left: 255px;
+    top: 87px;
+}
+
+.lbMac {
+    margin-left: 15px;
+    vertical-align: -9px;
+}
+
+.loadDate01, .loadDate02 {
+    font-size: 14px;
+    color: #999;
+    position: absolute;
+}
+
+.loadDate01 {
+    left: 132px;
+    top: 132px;
+}
+
+.loadDate02 {
+    left: 255px;
+    top: 132px;
+}
+.loadBoxInner02 {
+    background-color: #f6f6f6;
+}
+.lbImg02{
+    background: url("../img/sprite.png") -26px -165px no-repeat;
+}
+.loadBtnBox:hover .lbImg02{
+    background: url("../img/sprite.png") 0 -165px no-repeat;
+}
+

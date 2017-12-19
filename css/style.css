@@ -1,0 +1,56 @@
+.da-thumbs {
+	list-style: none;
+	width:1120px;
+	overflow:hidden;
+	position: relative;
+	margin: 20px auto;
+	padding: 0;
+}
+.da-thumbs li {
+	float: left;
+	
+	position: relative;
+}
+
+
+.wl_gao li {
+	float:left;
+	width:25%!important;
+	height:auto!important;
+}
+.wl_gao li a {margin:0 5px;}
+.nr3 .container li { height:auto!important;margin-bottom:10px!important;}
+
+
+.nr3 .container li.li1 {width:33.33%;margin:0;}
+.nr3 .container li.li1 a {margin:0 5px;height:216px;overflow:hidden;}
+
+
+.nr4 .container { padding:0;}
+.nr3 .container { padding:0;}
+
+.da-thumbs li a,
+.da-thumbs li a img {
+	display: block;
+	position: relative;
+}
+.da-thumbs li a img {width:100%;transform: scale(1, 1); margin:0;}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+	position: absolute;
+	background: #333;
+	background: rgba(75,75,75,0.7);
+	width:366px;
+	height:217px;
+}
+.da-thumbs li a div span {
+	display: block;
+	padding: 10px 0;
+	margin: 40px 20px 20px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgba(255,255,255,0.9);
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+}

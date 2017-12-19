@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+.head-d2-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.nr1 {
+    text-align: center;
+    margin-top: -41px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #0099cc;
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+    color: #999;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.nr1 img {
+    transform: scale(0.93, 0.93);
+    display: block;
+    margin-left: -41px;
+    margin-top: 42px;
+}
+
+/*教育环境*/
+.trapezoid {
+    width: 1120px;
+    height: 637px;
+    margin-top: 40px;
+}
+
+.trapezoid img {
+    transform: scale(0.72, 0.72);
+    display: block;
+}
+
+.g3 {
+    margin-top: -98px;
+    margin-left: -87px;
+}
+
+.g4 {
+    margin-top: -716px;
+    margin-left: 188px;
+}
+
+.g5 {
+    margin-top: -714px;
+    margin-left: 583px;
+}
+
+.left img {
+    position: relative;
+    top: -162px;
+    left: 118px;
+}
+
+.center img {
+    position: relative;
+    top: -655px;
+    left: 535px;
+}
+
+.right img {
+    position: relative;
+    top: -455px;
+    left: 869px;
+}
+
+.left p, .center p, .right p {
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+    line-height: 28px;
+    display: inline-block;
+    width: 200px;
+}
+
+.left p {
+    position: relative;
+    top: -121px;
+    left: 136px;;
+}
+
+.center p {
+    position: relative;
+    top: -604px;
+    left: 554px;
+}
+
+.right p {
+    position: relative;
+    top: -408px;
+    left: 879px;
+}
+
+.img3 {
+    position: relative;
+    top: -311px;
+}
+
+/*学习环境*/
+.container {
+    height: 532px;
+    width: 1120px;
+}
+
+.container img {
+    transform: scale(0.72, 0.72);
+    margin-left: -70px;
+    margin-top: -43px;
+}
+
+.container ul li {
+    float: left;
+    width: 370px;
+    height: 242px;
+}
+
+.li1 {
+    margin-right: 5px;
+}
+.connerUs-cont-d5-t1 .ccda {
+    width: 272.5px;
+    font-family: "Microsoft YaHei";
+}
+.nr3{
+    position: relative;
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+    background: #007fcf;
+    border-radius: 24px;
+    color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    left: 463px;
+    top: 120px;
+    z-index: 9999;
+    border-style: none;
+    font-family: "microsoft yahei";
+    line-height: 40px;
+}
+.btn1:hover{
+    color: #2a6496;
+    text-decoration: underline;
+}

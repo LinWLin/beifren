@@ -1,0 +1,23 @@
+h4 {
+    color: #0096DB;
+}
+@media all and (orientation: landscape) {
+    /*横屏时代码*/
+    p {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height:3rem;
+    }
+    h4{
+        font-size: 4rem;
+    }
+}
+
+@media all and (orientation: portrait) {
+    /*竖屏时代码*/
+    p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+}

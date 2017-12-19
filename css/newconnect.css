@@ -1,0 +1,195 @@
+.text_justify:after {
+    display: inline-block;
+    width: 100%;
+    content: '';
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.banner_ctn {
+    width: 600px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -130px;
+}
+.banner_ctn h3 {
+     font-size: 60px;
+     height: 80px;
+    font-weight: bold;
+     text-align: justify;
+     text-align-last: justify;
+     text-shadow: 0 0 15px #0391e9;
+ }
+.banner_ctn h4 {
+    font-size: 24px;
+    height: 26px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-top: 30px;
+    text-shadow: 0 0 15px #0391e9;
+}
+.banner_btnWarpper {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 70px;
+    margin-top: 30px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 0;
+    box-shadow: 0 0 15px #1595eb;
+}
+.banner_btnWarpper a {
+    float: left;
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    line-height: 50px;
+    color: #01083F;
+    font-size: 18px;
+    box-sizing:border-box;
+    border:2px solid #FFC800;
+    font-weight: bold;
+}
+.banner_btnWarpper a.active {
+    background-color: #FFC800;
+    margin-right:10px;
+}
+.banner_btnWarpper a.hover:hover {
+    background-color: #0075CA;
+    border-color:#0075CA;
+    color:#fff;
+}
+
+/*1*/
+.connect_warp_1 {
+    width:100%;
+    background-color: #fff;
+}
+.c_w_title {
+    font-size: 46px;
+    line-height: 60px;
+    text-align: center;
+    color:#13B7FF;
+}
+.c_w_1-container {
+    width:1120px;
+    margin:30px auto;
+}
+.c_w_1-c-l {
+    display: inline-block;
+    vertical-align: top;
+    width:550px;
+    margin-right:20px;
+    box-sizing:border-box;
+    padding:10px 15px;
+    text-align: center;
+    height:320px;
+    overflow: hidden;
+}
+.c_w_1-c-l:hover,.c_w_1-c-r:hover {
+    box-shadow: 0 0 15px #bbb;
+}
+.c_w_1-c-r {
+    display: inline-block;
+    vertical-align: top;
+    width:550px;
+    box-sizing:border-box;
+    padding:10px 15px;
+    height:320px;
+    overflow: hidden;
+}
+.c_w_1-c-r:hover .c_w_r-phone,.c_w_1-c-l:hover .c_w_l-weixin {
+    border-bottom:1px solid #FF9191;
+}
+.c_w_l-weixin,.c_w_r-phone {
+    height:50px;
+    border-bottom:1px solid #EAEAEA;
+}
+.c_w_l-weixin {
+    background: #fff url('../images/wechat_154.72796934866px_1193418_easyicon.png') center center no-repeat;
+    -webkit-background-size: 36px;
+    background-size: 36px;
+}
+.c_w_r-phone {
+    background: #fff url('../images/4efd2317c8e050a1524f32dd6a8ba5b61.png') center center no-repeat;
+    -webkit-background-size: 18px;
+    background-size: 18px;
+}
+.c_w_l-ewm {
+    display: inline-block;
+    width:400px;
+    margin:0 auto;
+    text-align: center;
+}
+.c_w_l-ewm .c_w_l-l,.c_w_l-ewm .c_w_l-r {
+    display: inline-block;
+    width:180px;
+
+    vertical-align: top;
+}
+.c_w_l-ewm .c_w_l-l h5,.c_w_l-ewm .c_w_l-r h5 {
+    font-size:16px;
+    line-height:40px;
+    margin-top:20px;
+    margin-bottom: 0;
+}
+.c_w_l-ewm .c_w_l-l {
+    margin-right:20px;
+}
+.c_w_r-warpper {
+    padding:50px 100px;
+    box-sizing:border-box;
+    list-style:none;
+}
+.c_w_r-warpper li {
+    line-height: 30px;
+    font-size:16px;
+}
+.c_w_r-warpper li span {
+    display: inline-block;
+    width:80px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.c_w_lx {
+    width:1120px;
+    margin:30px auto;
+    list-style:none;
+}
+.c_w_2_mapWarpper {
+    position: relative;
+    width:100%;
+    height:630px;
+    overflow: hidden;
+}
+.c_w_2_mapWarpper img {
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left:-960px;
+    height:630px;
+}
+.c_w_lx li {
+    line-height: 32px;
+    font-size:16px;
+    color:#000;
+    letter-spacing: 3px;
+}
+.c_w_lx li .c_w_lx_list-title {
+    display: inline-block;
+    width:80px;
+    text-align: justify;
+    text-align-last:justify;
+    margin-right:28px;
+    letter-spacing: 0;
+}
+.c_w_lx li .c_w_lx_list-title.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+.head-d2-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.nr1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.bk1 {
+    margin-top: 30px;
+    margin-left: -199px;
+}
+
+.dz {
+    margin-top: -20px;
+}
+
+.bb1 {
+    transform: scale(0.93, 0.93);
+    margin-left: -43px;
+    margin-top: 39px;
+}
+
+.bb2 {
+    margin-top: -20px;
+}
+
+.nr3 {
+    width: 100%;
+    /*height: 3600px;*/
+    position: relative;
+}
+.nr3Box{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+.nr3Box a{
+    display: block;
+    width:55%;
+    height:11.11%;
+
+}
+.nr3Box a:nth-child(odd){
+	float:right;
+}
+.nr3Box a:nth-child(even){
+	float:left;
+}
+.bjt {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /*z-index: -1;*/
+}
+
+.bk2 {
+    position: relative;
+    top: -113px;
+    left: -252px
+}
+
+.fj {
+    position: relative;
+    top: -34px;
+}
+/* ************************* 修改区 begin**************************** */
+
+/* @media (min-device-width: 1080px) and (max-device-width: 1920px) {
+    .fj {
+        left: 18%;
+    }
+    .btn {
+        left: -11%;
+    }
+}
+
+@media (min-device-width: 900px) and (max-device-width: 1600px) {
+    .fj {
+        left: 21%;
+    }
+    .btn {
+        left: -13.7%;
+    }}
+
+@media (min-device-width: 768px) and (max-device-width: 1366px) {
+    .fj {
+        left: 25%;
+    }
+    .btn {
+        left: -16%;
+    }
+}
+@media (min-device-width: 720px) and (max-device-width: 1280px) {
+    .fj {
+        left: 17%;
+    }
+    .btn {
+        left: -26%;
+    }
+} */
+
+
+.nr4 {
+    text-align: center;
+    margin: 50px 0;
+}
+.nr4_box {
+    position: relative;
+    background: url('../images/fj.png') no-repeat;
+    width: 674px;
+    margin:0 auto;
+    text-align: center;
+    /* height: 400px; */
+}
+.btn {
+    width: 200px;
+    height: 60px;
+    color: #FFF;
+    background: #F1AD00;
+    border-radius: 8px;
+    font-size: 18px;
+    border-style: none;
+}
+.btn:nth-child(1){
+    position: absolute;
+    top: 50px;
+    left: 127px;
+}
+.btn:nth-child(2){
+    position: absolute;
+    top: 50px;
+    right: 127px;
+}
+
+
+
+/*.dh {*/
+    /*position: relative;*/
+    /*top: -86px;*/
+    /*left: -537px;*/
+/*}*/
+
+/* ************************* 修改区 end**************************** */
+
+
+#div1 .aa {
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    background: #0080cf;
+    color: #FFF;
+    border: 1px solid #FFF;
+    position: absolute;
+}
+
+.btn1 {
+    top: 7%;
+    left: 56%;
+}
+
+.btn2 {
+    top: 643px;
+    left: 560px;
+}
+
+.btn3 {
+    top: 1002px;
+    left: 914px;
+}
+
+.btn4 {
+    top: 1337px;
+    left: 558px;
+}
+
+.btn5 {
+    top: 1695px;
+    left: 908px;
+}
+
+.btn6 {
+    top: 2025px;
+    left: 554px;
+}
+
+.btn7 {
+    top: 2366px;
+    left: 912px;
+
+}
+
+.btn9 {
+    top: 3064px;
+    left: 906px;
+}
+
+.btn8 {
+    top: 2729px;
+    left: 556px;
+}

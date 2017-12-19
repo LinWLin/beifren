@@ -1,0 +1,122 @@
+<div class="nav-box">
+    <div class="nav">
+        <div class="navLeft">
+            <a target="_blank" href="aboutWe.aspx" class="nav1">关于我们</a>
+            <a target="_blank" href="jiaoxuechenji.aspx">教学成绩</a>
+            <a target="_blank" href="mingShi.aspx">名师团队</a>
+            <a target="_blank" href="liuDaYouShi.aspx">六大优势</a>
+        </div>
+        <div class="navCenter">
+            <a target="_blank" href="http://www.beifuren.com/pc/index.html">
+                <img src="../img/logo_new.png" />
+            </a>
+        </div>
+        <div class="navRight">
+            <a target="_blank" href="zuoPingZhuanQu.aspx">作品专区</a>
+            <a target="_blank" href="chooseCourse.aspx">选课中心</a>
+            <a target="_blank" href="MKindex.aspx" target='_blank'>美考专区</a>
+            <a target="_blank" href="connectUs.aspx">联系我们</a>
+        </div>
+    </div>
+</div>
+<div class="xfc-box">
+    <span id="close-btn">收起</span>
+    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=463352077&amp;site=在线客服&amp;menu=yes', '_blank', 'height=502, width=644,toolbar=no,scrollbars=no,menubar=no,status=no"
+        class="qq-zixun"></a>
+    <a target="_blank" href="baomingzhuangqu.aspx" class="baoming-btn"></a>
+    <a href="#" class="top"></a>
+</div>
+<style>
+    .xfc-box {
+        display: inline-block;
+        position: fixed;
+        z-index: 999999999999;
+        right: 0;
+        top: 100px;
+        width: 139px;
+        height: 499px;
+        background: url('../img/111_02.png');
+    }
+
+    .xfc-box span {
+        display: inline-block;
+        width: 19px;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+        padding: 5px 0;
+        line-height: 20px;
+        box-sizing: border-box;
+    }
+
+    .qq-zixun {
+        display: block;
+        width: 120px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 12px;
+    }
+
+    .baoming-btn {
+        display: block;
+        width: 120px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 55px;
+    }
+
+    .top {
+        display: block;
+        width: 120px;
+        height: 75px;
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+    }
+</style>
+<script>
+    var btn = document.getElementById("close-btn");
+    var xfc = document.getElementsByClassName("xfc-box");
+    var toTop = document.getElementsByClassName('top')[0];
+    toTop.addEventListener("click", function () {
+        var banerBox = document.getElementById('banner-box');
+        banerBox.style.opacity = 1;
+    })
+    btn.addEventListener("click", function () {
+
+        console.log(xfc[0].style.right);
+
+        if (this.innerHTML == "收起") {
+            this.innerHTML = "展开";
+            var a = 0;
+            var timer = null;
+            timer = setInterval(function () {
+                a -= 10;
+                xfc[0].style.right = a + "px";
+                if (a <= -120) {
+                    clearInterval(timer);
+                }
+            }, 20);
+        } else {
+            this.innerHTML = "收起";
+            var a = -120;
+            var timer = null;
+            timer = setInterval(function () {
+                a += 10;
+                xfc[0].style.right = a + "px";
+                if (a >= 0) {
+                    clearInterval(timer);
+                }
+            }, 20);
+        }
+
+    });
+
+</script>

@@ -1,0 +1,752 @@
+@charset "utf-8";
+/* CSS Document */
+li {
+    list-style: none;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.bt {
+
+    width: 180px;
+    height: 70px;
+    background: #168ce3;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    position: relative;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.head-d4 p {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    top: -449px;
+    left: 581px;
+    color: #333;
+    line-height: 230%;
+}
+
+.head-d4 span {
+    color: #168ce3;
+}
+
+.bt_2 {
+    width: 180px;
+    height: 70px;
+    background: #168ce3;
+    color: #FFF;
+    border-radius: 6px;
+    font-size: 20px;
+    position: relative;
+    top: -695px;
+    left: 464px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.head-d4 a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: underline;
+    position: relative;
+    top: -646px;
+    left: 438px;
+}
+
+.head-d4 video {border: 1px solid;
+    position: relative;
+    top: -351px;
+    left: -10px;
+}
+
+/*内容*/
+.chooseC-cont-d1 {
+    width: 100%;
+    height: 1504px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ul1 li {
+    float: left;
+    width: 33.3%;
+}
+
+.ul1 img {
+    transform: scale(0.7, 0.7);
+    display: inline-block;
+    margin-left: -76px;
+}
+
+.chooseC-cont-d1 h2 {
+    font-size: 24px;
+    color: #0080cf;
+    width: 157px;
+    height: 43px;
+    font-weight: normal;
+    border-top: 1px solid #666666;
+    border-left: 1px solid #666666;
+    display: inline-block;
+    /* line-height: 26px; */
+    padding-top: 14px;
+}
+
+.btt {
+    margin-left: -815px;
+}
+
+.ul2 {
+    width: 100%;
+    height: 250px;
+    margin-top: 60px;
+}
+
+.ul2 li {
+    float: left;
+    margin-left: 2.5%;
+}
+
+.li1 {
+    margin-right: 3.8%;
+}
+
+.ul2 img {
+    transform: scale(1.2, 1.2);
+}
+
+.k1 {
+    width: 50%;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.k1 ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.k2 {
+    width: 50%;
+    height: 250px;
+    margin-top: -342px;
+    margin-left: 50%;
+}
+
+.ul3 li {
+    float: left;
+}
+
+.ul3 img {
+    transform: scale(0.7, 0.7);
+}
+
+.ul3 {
+    position: relative;
+    left: 767px;
+    top: 9px;
+}
+
+.chooseC-cont-d1 h3 {
+    font-size: 30px;
+    color: #0080cf;
+    font-weight: normal;
+    margin-left: -1000px;
+    margin-top: -42px;
+}
+
+.xuanke {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.xk {
+    color: #FFF;
+    background: #0080cf;
+    width: 88px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 8px;
+    position: relative;
+    top: -27px;
+    left: -377px;
+    border-style: none;
+}
+
+.xuanke ul {
+    margin-top: -80px;
+}
+
+.xuanke ul li {
+    height: 155px;
+    width: 276px;
+    float: left;
+    background: #ccc;
+    margin-top: -54px;
+}
+
+.xuanke li {
+    font-size: 24px;
+    text-align: center;
+    line-height: 155px;
+}
+
+.li2 {
+    margin-right: 5px;
+}
+
+.xuanke ul a {
+    color: #fff;
+}
+
+/*chenjing ——css*/
+
+.banner_content {
+    /*border: 1px solid;*/
+    /* width: 1440px;
+    height: 600px; */
+    z-index: 100;
+    /* margin: auto; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+.connerUs-cont-d5-t1 {
+    margin-top: 74px;
+}
+
+
+@media screen and (min-width:800px) and (max-width:1281px){
+    .banner_content .bannerRight {
+        float: right;
+        width: 600px;
+        height: 600px;
+        background: transparent;
+        transform:rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        z-index: 9;
+        margin-top: -260px;
+    }
+    .divBox {
+        float: left;
+        width: 300px;
+        height: 300px;
+        overflow:hidden;
+    }
+    .bannerRightTop {
+        margin: 40px 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .bannerRightTop .fontTop {
+        font-size: 18px;
+        line-height: 50px;
+        margin-bottom: 5px;
+    }
+    .bannerRightTop p {
+        font-size: 12px;
+        line-height:24px;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 15%;
+        overflow: hidden;
+    }
+    .bannerRightTop p:nth-child(6){
+        margin-top: -24px;
+        padding-left: 115px;
+    }
+    .bannerRightTop .button a {
+        display: inline-block;
+        width: 80px;height: 26px;
+        background-color: #FFF;
+        color: #168CE3;
+        line-height: 26px;
+        font-size: 12px;
+        border-radius: 13px;
+    }
+
+    .bannerRightRight {
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .bannerRightRight .fontRight {
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        left: -35px;
+
+    }
+    .bannerRightRight ul {
+        position: absolute;
+        top: 50%;
+        margin-top: -25%;
+        height:60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        padding-left: 70px;
+        padding-right: 40px;
+        text-align: left;
+    }
+    .bannerRightRight ul li span {
+        display: inline-block;
+        width: 30%;
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightRight ul li p {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .bannerRightBottom {
+        margin: 0 15px;
+    }
+    .bannerRightBottom .fontBottom {
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .bannerRightBottom li span {
+        display: inline-block;
+        width: 20%;
+        font-size: 14px;
+        height: 30px;
+        line-height: 28px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightBottom li p {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: left;
+        width: 80%;
+        float: left;
+        font-size: 10px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    .bannerRightLeft {
+        margin: 70px 20px 20px;
+    }
+    .bannerRightLeft video {
+        width: 220px;
+        height: 185px;
+    }
+    .bannerRightLeft p {
+        height: 30px;
+        text-align: right;
+        padding-right: 40px;
+        font-size: 16px;
+    }
+    .bannerRightLeft p a{ color: #fff; }
+    .banner_content .bannerLeft {
+        width: 500px;
+        display: inline-block;
+        min-height: 500px;
+        position: absolute;
+        left: 5%;
+        bottom: 0;
+        z-index: 10;
+    }
+    .bannerLeft img{
+        position: absolute;
+        bottom:0;
+        left: 0px;
+        width: 80%;
+    }
+}
+@media screen and (min-width:1281px) and (max-width:1440px){
+    .banner_content .bannerRight {
+        width: 600px;
+        height: 600px;
+        background: transparent;
+        transform:rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        z-index: 9;
+        margin-top: -250px;
+    }
+    .divBox {
+        float: left;
+        width: 300px;
+        height: 300px;
+        overflow:hidden;
+    }
+    .bannerRightTop {
+        margin: 50px 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .bannerRightTop .fontTop {
+        font-size: 18px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .bannerRightTop p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 15%;
+        overflow: hidden;
+    }
+    .bannerRightTop p:nth-child(6){
+        margin-top: -24px;
+        padding-left: 115px;
+    }
+
+    .bannerRightTop .button a {
+        display: inline-block;
+        width: 80px;height: 26px;
+        background-color: #FFF;
+        color: #168CE3;
+        line-height: 26px;
+        font-size: 12px;
+        border-radius: 13px;
+    }
+
+    .bannerRightRight {
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .bannerRightRight .fontRight {
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        left: -35px;
+
+    }
+    .bannerRightRight ul {
+        position: absolute;
+        top: 50%;
+        margin-top: -25%;
+        height:60%;
+        overflow:hidden;
+        box-sizing: border-box;
+        padding-left: 50px;
+        padding-right: 40px;
+        text-align: left;
+    }
+    .bannerRightRight ul li span {
+        display: inline-block;
+        width: 30%;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightRight ul li p {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .bannerRightBottom {
+        margin: 0 30px;
+    }
+    .bannerRightBottom .fontBottom {
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .bannerRightBottom li span {
+        display: inline-block;
+        width: 20%;
+        font-size: 16px;
+        height: 30px;
+        line-height: 30px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightBottom li p {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: left;
+        width: 80%;
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    .bannerRightLeft {
+        margin: 75px 30px 30px;
+    }
+    .bannerRightLeft video {
+        width: 240px;
+        height: 170px;
+    }
+    .bannerRightLeft p {
+        height: 30px;
+        text-align: right;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    .bannerRightLeft p a{ color: #fff; } 
+    .banner_content .bannerLeft {
+        width: 500px;
+        display: inline-block;
+        min-height: 500px;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        z-index: 10;
+    }
+    .bannerLeft img{
+        position: absolute;
+        bottom:0;
+        left: 0px;
+        width: 75%;
+    }
+    
+}
+
+
+@media (min-width: 1440px) {
+    .banner_content .bannerRight {
+        float: right;
+        margin-right: 20px;
+        width: 700px;
+        height: 700px;
+        background: transparent;
+        transform:rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        margin-top: -260px;
+        z-index: 8;
+    }
+    .divBox {
+        float: left;
+        width: 350px;
+        height: 350px;
+        overflow:hidden;
+    }
+    .divBox:nth-child(3) iframe 
+    {
+    	margin-top:24px;
+    	width:270px!important;
+    	height:220px!important;
+    	}
+    .bannerRightTop {
+        margin: 50px 20px;
+        text-align: center;
+        color: #fff;
+    }
+    .bannerRightTop .fontTop {
+        font-size: 18px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .bannerRightTop p {
+        font-size: 14px;
+        line-height: 36px;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 15%;
+        overflow: hidden;
+
+    }
+
+    .bannerRightTop .button a {
+        display: inline-block;
+        width: 80px;height: 30px;
+        background-color: #FFF;
+        color: #168CE3;
+        line-height: 30px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    .bannerRightRight {
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .bannerRightRight .fontRight {
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        left: -35px;
+
+    }
+    .bannerRightRight ul {
+        position: absolute;
+        top: 50%;
+        margin-top: -25%;
+        box-sizing: border-box;
+        height:60%;
+        overflow:hidden;
+        padding-left: 60px;
+        padding-right: 50px;
+        text-align: left;
+    }
+    .bannerRightRight ul li span {
+        display: inline-block;
+        width: 30%;
+        font-size: 16px;
+        height: 40px;
+        line-height: 30px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightRight ul li p {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bannerRightBottom {
+        margin: 0 40px;
+    }
+    .bannerRightBottom .fontBottom {
+        height: 50px;
+        line-height: 50px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .bannerRightBottom li span {
+        display: inline-block;
+        width: 20%;
+        font-size: 16px;
+        height: 30px;
+        line-height: 30px;
+        float: left;
+        font-weight: bold;
+    }
+    .bannerRightBottom li p {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: left;
+        width: 80%;
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+    .bannerRightLeft {
+        margin: 100px 40px 40px;
+    }
+    .bannerRightLeft video {
+        width: 270px;
+        height: 200px;
+    }
+    .bannerRightLeft p {
+        height: 30px;
+        text-align: right;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .bannerRightLeft p a{ color: #fff; } 
+
+    .banner_content .bannerLeft {
+        width: 600px;
+        display: inline-block;
+        min-height: 500px;
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+    }
+    .bannerLeft img{
+        position: absolute;
+        bottom:0;
+        left: 0px;
+        width: 75%;
+    }
+    .bannerRightTop p:nth-child(6){
+        margin-top: -36px;
+        padding-left: 115px;
+    }
+}
+
+
+
+
+.divBox:nth-child(1){
+    background-color: #168CE3;
+}
+
+.divBox:nth-child(2){
+    background: rgba(0, 0, 0, .5);
+}
+
+.divBox:nth-child(3){
+   background: rgba(0, 0, 0, .5);
+}
+
+.divBox:nth-child(4){
+    background-color: #fff;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    color:#000;
+    border: 1px solid transparent;
+    text-align: center;
+    transform:rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+    
+
+/* */
+
+
+
+

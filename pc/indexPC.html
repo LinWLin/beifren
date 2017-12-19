@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <link rel="icon" href="../Home/img/favicon.ico"/>
+    <!--<link rel="stylesheet" href="Home/css/intel.css"/>-->
+    <link rel="stylesheet" href="../Home/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../Home/css/animate.css"/>
+    <link rel="stylesheet" href="../Home/css/commen.css"/>
+    <link rel="stylesheet" href="../Home/css/mianindex.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/chooseCourse.css"/>
+    <link rel="stylesheet" href="../css/extra.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../sfq/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../sfq/css/htmleaf-demo.css">
+    <link rel='stylesheet' type='text/css' href='../sfq/css/base.css'/>
+    <!--[if lt IE 9]>
+    <script src="../Home/js/html5shiv.min.js"></script>
+    <script src="../Home/js/respond.min.js"></script>
+    <script>
+        $(function () {
+            $(".voice_2 ul li").each(function () {
+                var fold = $(this).find(".fold");
+                var unfold = $(this).find(".unfold");
+                if (fold.is(":hidden")) {
+                    $(this).width(680);
+                } else {
+                    $(this).width(100);
+                }
+            })
+            $(".voice_2 ul li").click(function () {
+                var li_index = $(this).index();
+                $(this).animate({width: 680}, 200);
+                $(this).find(".unfold").show();
+                $(this).find(".fold").hide();
+                $(this).siblings().animate({width: 100}, 200);
+                $(this).siblings().find(".unfold").hide();
+                $(this).siblings().find(".fold").show();
+            })
+        })
+    </script>
+    <![endif]-->
+    <style>
+        .tab-pane dd {
+            display: none;
+        }
+
+        .tab-pane dd p {
+            display: none;
+        }
+
+        @media (min-device-width: 1080px) and (max-device-width: 1920px) {
+            #sfq {
+                width: 62%;
+            }
+        }
+
+        @media (min-device-width: 900px) and (max-device-width: 1600px) {
+            #sfq {
+                width: 73%;
+            }
+        }
+
+        @media (min-device-width: 768px) and (max-device-width: 1366px) {
+            #sfq {
+                width: 86%;
+            }
+        }
+
+        @media (min-device-width: 720px) and (max-device-width: 1280px) {
+            #sfq {
+                width: 92%;
+            }
+        }
+
+        #sfq {
+            /*!*width:62%;*!*/
+            height: 900px;
+            margin: 0 auto;
+        }
+
+        .ideaswrap {
+            width: 100%;
+            position: relative;
+            height: 270px;
+            overflow: hidden;
+        }
+        .ideaswrap ul{
+            height: 420px;
+            width: 1155px;
+            margin: 0 auto;
+        }
+
+        .ideaswrap ul li {
+            display: inline-block;
+            /*height: 420px;*/
+            margin: 0;
+            padding: 0;
+            /*background-color: #fff7cd;*/
+            list-style: none;
+            width: 295px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .ideaswrap + img {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 100px 0 0;
+        }
+
+    </style>
+</head>
+<body>
+<!--<div class="banner01" id="banner01">
+    &lt;!&ndash;onclick="browserRedirect();"&ndash;&gt;
+    <img src="../images/01.png" alt="" class="img-responsive" style="width: 100%;height:100%">
+</div>-->
+<div class="neirong" style="display: block;opacity:1">
+    <div class="zindex">
+        <div class="topLine" style="position: fixed;top: 0px;"></div>
+        <div class="nav-box">
+            <div class="nav text-center">
+                <div class="navLeft">
+                    <a href="">关于我们</a>
+                    <a href="">教学成绩</a>
+                    <a href="">名师团队</a>
+                    <a href="">六大优势</a>
+                </div>
+
+                <div class="navCenter">
+                    <img src="../images/headLogo.png" alt=""/>
+                </div>
+                <div class="navRight">
+                    <a href="">作品专区</a>
+                    <a href="">选课中心</a>
+                    <a href="">美考专区</a>
+                    <a href="">联系我们</a>
+                </div>
+            </div>
+        </div>
+        <div id="banner-box">
+            <div class="banner-box">
+                <img src="../images/jmt.png" width="1100" ondragstart="return false" style=" position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;">
+            </div>
+        </div>
+
+    </div>
+    <div id="slideBox">
+        <div class="topLine bottomLine">
+            <img src="../images/downLogo.png" alt=""/>
+        </div>
+        <!--教学成绩-->
+        <div class="row" id="Top1" style="margin: 7% 0 3% 0;">
+            <div class="container">
+                <h2 id="AAAASD">教学成绩</h2>
+
+                <h3>用成绩说话</h3>
+                <h4><a href="connectUs.html" class="btn btn-primary">我要咨询</a></h4>
+            </div>
+        </div>
+        <div class="container" style="height: 200px;padding: 0">
+            <div class="row" style="position: relative">
+                <img src="../Home/img/mainindex/05.png" class="img-responsive" alt=""/>
+                <a href="baomingzhuangqu.html"
+                   style="display: block;width: 100%;z-index: 999;height: 107px;position: absolute;top: 0;left: 0;"></a>
+            </div>
+            <div class="row" style="margin-top: -98px;">
+                <div class="col-md-3 text-center">
+                    <h4><font color="#fff">热线电话</font></h4>
+                    <h4><font color="#fff">4008-010-611</font></h4>
+                </div>
+                <div class="col-md-9 text-center">
+                    <h4><font color="#FFFFFF">2017年<font color="#DE4F51">20</font>人参加北服考试，通过<font
+                            color="#DE4F51">17</font>人，北京服装学院通过率<font
+                            color="#DE4F51">85%</font></font></h4>
+                    <h4><font color="#FFFFFF">北京服装学院<font color="#DE4F51">第一名</font>，北工业<font
+                            color="#DE4F51">第三、四名</font></font></h4>
+                </div>
+            </div>
+        </div>
+        <div id="mian-jiaoxuechengji" class="container">
+            <div id="demo3" class="scroll-img">
+                <ul>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="xueyuanZhuanqu.html">
+                            <dl>
+                                <dt><img src="../Home/img/mainindex/06.png" alt="" class="img-responsive"/></dt>
+                                <dd>王欣雨</dd>
+                                <dd>浙江</dd>
+                                <dd>北京服装学院设计学类</dd>
+                                <dd>北服人画室2015级学院</dd>
+                            </dl>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--八大精品课程-->
+        <div class="row" id="Top1" style="margin: 3% 0 3% 0;">
+            <div class="container">
+                <h2 id="AAAASD">八大精品课程</h2>
+
+                <h3>高端小班&nbsp;&nbsp;北服直通车</h3>
+                <h4><a href="connectUs.html" class="btn btn-primary">我要咨询</a></h4>
+            </div>
+        </div>
+        <div class="chooseC-cd1-bx" style="margin: 0 auto;">
+            <!--1-->
+            <div class="chooseC-cd1-a1 text-fff">
+                <img src="../images/hot1.png" class="c-ca-img1">
+
+                <div class="choo-c-dtd text-padding88" align="center" style="display: block;">
+                    <span class="choo-c-h1">北服校长班</span>
+                    <span class="choo-c-h2">（10人班/重点班）</span>
+                </div>
+                <div class="show-box text-padding52 text-padding-52" style="display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>北服合格率&emsp;90% 顶配师资</h6>
+                    <h6>北服教授亲自授课联考保过</h6>
+                    <h6>48800元/期 8个月</h6>
+                    <a href="xiaoZhangBan.html" class="btn">详细信息</a>
+                </div>
+
+            </div>
+            <!--2-->
+            <div class="chooseC-cd1-a2 text-fff">
+                <div class="text-center text-padding88" style="display: block;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>北服合格率&emsp;90% 顶配师资</h6>
+                    <h6>北服教授亲自授课联考保过</h6>
+                    <h6>48800元/期 8个月</h6>
+                    <a href="ShiRen.html" class="btn">详细信息</a>
+                </div>
+            </div>
+            <!--3-->
+            <div class="chooseC-cd1-a3 text-fff ">
+                <div class="text-center text-padding88" style="display: block;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>北服合格率&emsp;90% 顶配师资 </h6>
+                    <h6>北服教授亲自授课联考保过</h6>
+                    <h6>48800元/期 8个月</h6>
+                    <a href="ShiRen.html" class="btn">详细信息</a>
+                </div>
+            </div>
+            <!--4-->
+            <div class="chooseC-cd1-a4 text-fff">
+                <div class="text-center text-padding88" style="display: block;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>
+                        北服合格率&emsp;90% 顶配师资
+                    </h6>
+                    <h6>
+                        北服教授亲自授课联考保过
+                    </h6>
+                    <h6>
+                        48800元/期 8个月
+                    </h6>
+                    <a href="ShiRen.html" class="btn">详细信息</a>
+                </div>
+            </div>
+            <!--5-->
+            <div class="chooseC-cd1-a5 text-fff" style="height: 200px;">
+                <div class="text-center text-padding88" style="display: block; padding: 60px 0px;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="padding: 29px 0px; display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>
+                        北服合格率&emsp;90% 顶配师资
+                    </h6>
+                    <h6>
+                        北服教授亲自授课联考保过
+                    </h6>
+                    <h6>
+                        48800元/期 8个月
+                    </h6>
+                    <a href="ShiRen.html" class="btn">详细信息</a>
+                </div>
+            </div>
+            <!--6-->
+            <div class="chooseC-cd1-a6 text-fff" style="height: 200px;">
+                <div class="text-center text-padding88" style="display: block; padding: 60px 0px;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="padding: 29px 0px; display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>
+                        北服合格率&emsp;90% 顶配师资
+                    </h6>
+                    <h6>
+                        北服教授亲自授课联考保过
+                    </h6>
+                    <h6>
+                        48800元/期 8个月
+                    </h6>
+                    <a href="ShiRen.html" class="btn">详细信息</a>
+                </div>
+            </div>
+            <!--7-->
+            <div class="chooseC-cd1-a7 text-fff" style="height: 97px;">
+                <div class="text-center text-padding88" style="display: block; padding: 16px 0px;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="padding: 20px 0px; display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>
+                        北服合格率&emsp;90% 顶配师资
+                    </h6>
+                    <!--<h6>-->
+                    <!--北服教授亲自授课联考保过-->
+                    <!--</h6>-->
+                    <!--<h6>-->
+                    <!--48800元/期 8个月-->
+                    <!--</h6>-->
+                    <!--<a href="#" class="btn">详细信息</a>-->
+                </div>
+            </div>
+            <!--8-->
+            <div class="chooseC-cd1-a8 text-fff" style="height: 97px;">
+                <div class="text-center text-padding88" style="display: block; padding: 16px 0px 12px;">
+                    <h4>北服名校定制班</h4>
+                    <h5>（20人班/重点班）</h5>
+                </div>
+                <div class="show-box text-padding52" style="padding: 20px 0px; display: none;" align="center">
+                    <h6><font color="#0677CA">10人班/重点班</font></h6>
+                    <h6>
+                        北服合格率&emsp;90% 顶配师资
+                    </h6>
+                    <!--<h6>-->
+                    <!--北服教授亲自授课联考保过-->
+                    <!--</h6>-->
+                    <!--<h6>-->
+                    <!--48800元/期 8个月-->
+                    <!--</h6>-->
+                    <!--<a href="#" class="btn">详细信息</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" style="margin: 3% 0 3% 0;">
+            <a href="chooseCourse.html" class="btn btn-primary">查看更多课程</a>
+        </div>
+        <!--        <div class="row row-scale">
+                    <div class="banner04">
+                        <div class="box">
+                            <img src="../Home/img/mainindex/1111.jpg" class="iphone">
+                        </div>
+                    </div>
+        &lt;!&ndash;
+                    <div class="banner04">
+                        <div class="row banner04Text pull-right">
+                            <div class="col-md-6">
+                                <h1>十人小班</h1>
+
+                                <h1>高升学率</h1>
+
+                                <h1>权威教研</h1>
+                            </div>
+                            <div class="col-md-6">
+                                <h1>家长互通</h1>
+
+                                <h1>高端VIP</h1>
+
+                                <h1>提文化课</h1>
+                            </div>
+                        </div>
+                    </div>
+        &ndash;&gt;
+                </div>
+                <div class="row sange row-child">
+                    <p id="float-p">精品十人小班缔造超高升学率</p>
+                    <div class="col-md-4 col-md-4-in"><a href="ShiRen.html">
+                        <img src="../Home/img/mainindex/09.png" alt="" class="img-responsive"/>
+                    </a>
+
+                        &lt;!&ndash;<div class="sangeText text-center">&ndash;&gt;
+                            &lt;!&ndash;<h3 style="color: #0080CF">小班优势</h3>&ndash;&gt;
+                        &lt;!&ndash;</div>&ndash;&gt;
+                    </div>
+
+
+                    <div class="col-md-4 col-md-4-in"><a href="jiaoXueCeLue.html">
+                        <img src="../images/sh1.png" alt="" class="img-responsive"/>
+                    </a>
+
+                        &lt;!&ndash;<div class="sangeText text-center">&ndash;&gt;
+                            &lt;!&ndash;<h3 style="color: #0080CF">策略教学</h3>&ndash;&gt;
+                        &lt;!&ndash;</div>&ndash;&gt;
+                    </div>
+
+
+                    <div class="col-md-4 col-md-4-in"><a href="gaoDuanHuanJin.html">
+                        <img src="../images/sh2.png" alt="" class="img-responsive"/>
+                    </a>
+
+                        &lt;!&ndash;<div class="sangeText text-center">&ndash;&gt;
+                            &lt;!&ndash;<h3 style="color: #0080CF">高端环境</h3>&ndash;&gt;
+                        &lt;!&ndash;</div>&ndash;&gt;
+                    </div>
+
+                </div>-->
+        <div id="sfq">
+            <div class="ideaswrap">
+                <ul>
+                    <li style="width: 558px"><img src="../img/111.jpg"/></li>
+                    <li style="width: 199px"><img src="../img/222.jpg"/></li>
+                    <li style="width: 199px"><img src="../img/333.jpg"/></li>
+                    <li style="width: 199px"><img src="../img/444.jpg"/></li>
+                </ul>
+            </div>
+            <img src="../img/idx-00.jpg" alt="">
+        </div>
+        <!--小班优势策略教学高端环境mei有做-->
+        <!--9*9方格图相册介绍-->
+        <div class="banner05 container" style="margin-top: 0">
+            <div class="row  row00">
+                <div class="col-md-8 col-md-8-00">
+                    <div class="row">
+                        <div class="col-lg-12" style="margin-bottom:1.5% ;">
+                            <a style="display: inline-block;width: 97.6%;" href="mingShi.html"><img
+                                    src="../Home/img/mainindex/10.png" alt="" class="img-responsive img-rsp-9"/></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-md-4-00">
+                            <a href="zuoPingZhuanQu.html">
+                                <img src="../Home/img/mainindex/11.png" alt="" class="img-responsive img-rsp-9"/></a>
+                        </div>
+                        <div class="col-md-8 col-md-8-01" style="overflow:inherit;">
+                            <div class="row">
+                                <div class="col-md-6" style="padding: 0;">
+                                    <a href="liuDaYouShi.html">
+                                        <img src="../Home/img/mainindex/12.png" class="img-responsive img-rsp-9"/></a>
+                                </div>
+                                <div class="col-md-6" style="margin-left: 20px;width: 46%;padding: 0;">
+                                    <a href="gaoDuanHuanJin.html">
+                                        <img src="../Home/img/mainindex/13.png" class="img-responsive img-rsp-9"/></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" style="width:108%;margin-left: 10px;">
+                                    <a href="gaoDuanHuanJin.html">
+                                        <img src="../Home/img/mainindex/14.png" class="img-responsive img-rsp-9"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 col-md-4-00" style="border: 1px solid #ddd;">
+                    <div>
+                        <ul class="Tam text-center" role="tablist" id="myTab">
+                            <li role="presentation" id="presentation01" class="active"><a href="#home" role="tab"
+                                                                                          data-toggle="tab">家长问答</a>
+                            </li>
+                            <li role="presentation" id="presentation02"><a href="#profile" role="tab"
+                                                                           data-toggle="tab">画室动画</a></li>
+                            <li role="presentation" id="presentation03"><a href="#messages" role="tab"
+                                                                           data-toggle="tab">美考资讯</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content">
+                        <!--1-->
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                        <p style="display: inline-block;"><font color="#0080CF"><span
+                                                class="glyphicon glyphicon-play"></span></font>我们出发吗！</p></dt>
+                                        <dd>一组定向组的队旗，以定向组老师为原型创作的卡通星，看到你的老师了吖反正小艺第一眼看到了李虎老师正脸萌傻</dd>
+                                        <dd><span>2016-5-5</span>
+                                            <button class="btn btn-primary btn-xs pull-right">查看全文</button>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                        <p style="display: inline-block;"><font color="#0080CF"><span
+                                                class="glyphicon glyphicon-play"></span></font>我们出发吗！</p></dt>
+                                        <dd>一组定向组的队旗，以定向组老师为原型创作的卡通星，看到你的老师了吖反正小艺第一眼看到了李虎老师正脸萌傻</dd>
+                                        <dd><span>2016-5-5</span>
+                                            <button class="btn btn-primary btn-xs pull-right">查看全文</button>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                        <p style="display: inline-block;"><font color="#0080CF"><span
+                                                class="glyphicon glyphicon-play"></span></font>我们出发吗！</p></dt>
+                                        <dd>一组定向组的队旗，以定向组老师为原型创作的卡通星，看到你的老师了吖反正小艺第一眼看到了李虎老师正脸萌傻</dd>
+                                        <dd><span>2016-5-5</span>
+                                            <button class="btn btn-primary btn-xs pull-right">查看全文</button>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!--2-->
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                        <h4 style="display: inline-block;"><font color="#0080CF"><span
+                                                class="glyphicon glyphicon-play"></font></span>
+                                            拓展第xxxxxx天|魔鬼训练，还是愉快旅行？我们出发吗！
+                                        </h4></dt>
+                                        <dd>一组定向组的队旗，以定向组老师为原型创作的卡通星，看到你的老师了吖反正小艺第一眼看到了李虎老师正脸萌傻</dd>
+                                        <dd><span>2016-5-5</span>
+                                            <button class="btn btn-primary btn-xs pull-right">查看全文</button>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                            </ul>
+                        </div>
+                        <!--3-->
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>
+                                        <h4 style="display: inline-block;"><font color="#0080CF"><span
+                                                class="glyphicon glyphicon-play"></font></span>
+                                            拓展第ccccccc天|魔鬼训练，还是愉快旅行？我们出发吗！</h4></dt>
+                                        <dd>一组定向组的队旗，以定向组老师为原型创作的卡通星，看到你的老师了吖反正小艺第一眼看到了李虎老师正脸萌傻</dd>
+                                        <dd><span>2016-5-5</span>
+                                            <button class="btn btn-primary btn-xs pull-right">查看全文</button>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                                <li><span class="glyphicon glyphicon-play" style="color: #0080CF;margin: 1%;"></span>开学一周新生们都化成什么样了？
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <iframe id="iFrame" src="./bottom.html" allowtransparency="true"
+                style="display: block;background-color:transparent;"
+                title="test" frameborder="0"
+                width="100%" height="310" scrolling="no" style="margin-top: -200px;"></iframe>
+    </div>
+
+</div>
+
+<script src="../Home/js/jquery-1.11.3.min.js"></script>
+<script>
+    // 手风琴
+    $(function(){
+        $('.ideaswrap>ul>li').hover(function(){
+            $(this).css({'width':'558px'}).siblings().css({'width':'199px'});
+        },function () {
+//            $(this).css({'width':'295px'}).siblings().css({'width':'295px'});
+            $(this).css({'width':'558px'}).siblings().css({'width':'199px'});
+        })
+    })
+</script>
+
+
+<script>
+    /*
+     $(document).ready(function () {
+     var trigger = window.location.search.substring(1);
+     $('.banner01').trigger('click',function () {
+     $('.banner01').hide();
+     });
+     //模拟点击切换模块
+     if (trigger == 'banner01') {
+     $('.banner01').trigger('click');
+     }
+     }
+     )
+     */
+</script>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/MYJS.js"></script>
+<script src="../js/indexslide.js"></script>
+<script src="../Home/js/bootstrap.min.js"></script>
+<!--<script>
+    $(function () {
+    });
+    $(".banner01").click(function () {
+        $(this).fadeOut()
+        $(".neirong").fadeIn(3500)
+        $("#iFrame").show();
+    });
+</script>-->
+<script type="text/javascript" src="../Home/js/bfr.js"></script>
+<script type="text/javascript">
+    $('div.dropdowns').dropdown();
+</script>
+<script>
+    $(function () {
+        $('#myTab a:last').tab('show')
+    })
+</script>
+</body>
+</html>
+

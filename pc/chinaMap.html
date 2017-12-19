@@ -1,0 +1,85 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>SVG中国地图导航</title>
+
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="../js/raphael-min.js"></script>
+
+    <script type="text/javascript" src="../js/chinaMapConfig.js"></script>
+
+    <script type="text/javascript" src="../js/map-min.js"></script>
+
+    <style>
+
+        *{margin:0;padding:0;border: none;}
+
+        body { color: #333; text-align: center; font: 12px "微软雅黑";background-color: #fff; }
+
+        .mapTipText{width: 280px;height: 180px;background:rgba(0,0,0,.6);}
+
+        .mapTipText .mapTipImg{height: 66px; width: 66px; float: left;overflow: hidden;}
+
+        .mapTipText .mapTipImg img{width: 100%;height: 100%;}
+
+        .mapTipText.mapTipText14 .mapTipList{ width: 100%;height: 100%; box-sizing: border-box; padding: 20px; background: url('../images/sufanyin.png') no-repeat; background-position: 15px 43px; background-size: 100px 122px; }
+
+        .mapTipText .mapTipList p { text-align: left; font-size:26px;color:#FBCD2F; margin-left:85px;text-align: justify;
+    text-align-last: justify;}
+
+        .mapTipText .mapTipList h4{ text-align: left; font-size:26px;color:#FBCD2F; margin-left:85px;text-align: justify;
+    text-align-last: justify;}
+
+    </style>
+
+    <script type="text/javascript">
+
+        $(function(){
+
+            $('#ChinaMap').SVGMap({
+
+                mapWidth: 1120,
+
+                mapHeight: 800,
+
+                stateHoverColor: '4DA6DE',
+
+                stateInitColor: '2190D5',
+
+                showTip: true,      //是否显示提示  默认显示
+
+                tipWidth: 280,      //展示内容（白色区域）宽度（单位：px）
+
+                tipHeight: 180,     //展示内容（白色区域）高度（单位：px）
+
+                tipOuterH : 30
+
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+<div class="wrap">
+
+    <div class="itemCon" style="float: left">
+
+        <div id="ChinaMap"></div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

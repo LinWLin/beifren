@@ -1,0 +1,91 @@
+.news-ContentBox {
+    width: 100%;
+}
+
+.news-ContentInnerBox {
+    margin: 0 auto;
+}
+
+.news-TitleBox {
+    height: 161px;
+    border: 1px solid #f3f3f3;
+    margin-top: 50px;
+}
+
+.news-Title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 53px 0 23px;
+    font-size: 24px;
+    color: #000;
+}
+
+.news-HeadBox {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #b1b1b1;
+}
+
+.news-HeadBox > i:nth-child(5) {
+    color: #dcb544;
+}
+
+.news-Content {
+    margin: 0 auto;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.news-ConInner {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.news-ContentTitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+.news-ConInner > p {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.signature-name, .signature-date {
+    text-indent: 2em;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.signature {
+    float: right;
+    margin: 61px 0;
+}
+
+.signature-date {
+    float: right;
+}
+.qrCodeBox{
+    width: 40%;
+    text-align: center;
+    padding-top: 41px;
+    margin: 0 auto;
+}
+.qrCodeBox img,.qrCodeBox i{
+    float: left;
+}
+.qrCodeBox i{
+    display: inline-block;
+    width:307px;
+    height: 160px;
+    font-size: 16px;
+    color: #808080;
+    text-align: left;
+    line-height:2;
+    margin: 45px 0 0 26px;
+}

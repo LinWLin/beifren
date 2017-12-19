@@ -1,0 +1,209 @@
+.aboutWe-cont-d1{
+	width: 100%;
+	height: 678px;
+	background-color: #F0EFED;
+	background: url("../images/banner.png") no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.o-btn {
+	position:absolute;
+	bottom:60px;
+	left:50%;
+	margin-left:-213px;
+}
+.o-btn a {
+	display:inline-block;
+	padding:10px 20px;
+	box-sizing:border-box;
+	height:50px;
+	line-height:30px;
+	font-size:16px;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border:1px solid #0B7ACD;
+	border-radius: 35px;
+	background:#0B7ACD;
+	color:#fff;
+	text-decoration: none;
+}
+.o-btn a:first-child {
+	margin-right:50px;
+}
+.o-btn a:hover {
+	background: #fff;
+	color:#0B7ACD;
+}
+.row,.container {padding:0;margin:0 auto;}
+.col-md-6.col-lg-6 {padding:0;}
+.right-box{padding-left:25px!important;}
+.left-box {padding-right:25px!important;}
+
+.o-hd-img {padding:0}
+.o-hd-img img {width:100%}
+.o-hd-ctx {
+	box-sizing:border-box;
+	padding:20px 0 0 50px;
+}
+.o-hd-ctx li {
+	line-height:56px;
+	font-size:14px;
+}
+.o-jiyu {
+	display:-webkit-flex;
+	display:flex;
+}
+.o-jiyu span {
+	flex:0 0 100px;
+	font-size:16px;
+	font-weight:700;
+	line-height:50px;
+}
+.o-jiyu p {
+	flex:1;
+	font-size:14px;
+	line-height:24px;
+	padding-top: 10px;
+}
+.o-comparison p {
+	height:50px;
+	line-height:50px;
+	text-align: center;
+	color:#fff;
+	font-size:14px;
+	background:#0B7ACD;
+	margin:0
+}
+.o-comparison .col-md-6.col-lg-6 {
+	position: relative;
+	height:326px;
+	overflow: hidden;
+}
+.o-comparison img {
+	width:100%;
+	height:100%
+}
+.o-comparison .o-mask {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	text-align:center;
+	background:rgba(0,0,0,.6);
+}
+.font-color {
+	color:#0B7ACD!important;
+}
+
+.o-colour {
+	margin-top:20px;
+}
+.marginTop {margin-top:50px;}
+
+.o-more {
+	margin-top:30px;
+	height:40px;
+	background:url("../images/jichu_15.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.o-more a {
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	line-height:40px;
+	text-decoration: none;
+}
+
+.o-title {
+	display:-webkit-flex;
+	display:flex;
+	height:60px;
+}
+.o-title .line {
+	flex:1;
+	position:relative;
+	top:-30px;
+	border-bottom: 1px dashed #ddd;
+}
+.o-title .o-title-name {
+	padding: 0 15px;
+	font-size:22px;
+	color:#0B7ACD;
+	font-weight:700;
+	line-height:60px;
+}
+
+.container-fluid .text-center {
+	font-size:16px;
+}
+
+.condition .col-item {
+	padding:0;
+	height:240px;
+}
+
+.col-item-1 {
+	background:url("../images/jichu_16.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.col-item-2 {
+	margin: 0 3px;
+	background:url("../images/jichu_17.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.col-item-3 {
+	margin-right:3px;
+	background:url("../images/jichu_18.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.col-item-4 {
+	background:url("../images/jichu_19.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.col-item a {
+	display:block;
+	background:rgba(0,0,0,.5);
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	line-height:240px;
+	font-weight:700;
+
+}
+.col-item a:hover {
+	color:#0B7ACD;
+}
+.o-btn-box {
+	position: relative;
+	height:100px;
+}
+
+.icon {
+	display:inline-block;
+	vertical-align: middle;
+	width:24px;
+	height:24px;
+}
+.icon-hd {
+	background:url("../images/icon_03.jpg") no-repeat;
+	background-size:18px 20px;
+}
+.icon-home {
+	background:url("../images/icon_06.jpg") no-repeat;
+	background-size:18px 20px;
+}.icon-mao {
+	 background:url("../images/icon_08.jpg") no-repeat;
+	 background-size:18px 20px;
+ }.icon-xin {
+	  background:url("../images/icon_10.png") no-repeat;
+	  background-size:18px 20px;
+  }
+
+
