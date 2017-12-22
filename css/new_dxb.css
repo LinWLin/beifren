@@ -2,7 +2,7 @@
 * @Author: waite
 * @Date:   2017-12-17 22:21:17
 * @Last Modified by:   waite
-* @Last Modified time: 2017-12-22 00:45:55
+* @Last Modified time: 2017-12-22 20:38:48
 */
 .text_justify:after {
 	display: inline-block;
@@ -501,7 +501,9 @@
  	float: left;
  	margin-bottom: 30px;
 }
-
+.nth2.dx_w_3_list .dx_w_3_list_warpper {
+	margin-left: 73px;
+}
 .dx_w_3_list_warpper {
 	display: inline-block;
 	width:487px;
